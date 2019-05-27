@@ -43,7 +43,6 @@
                 <div class="project">
                   <div class="project__close">
                     <span class="project__close-text">Close</span>
-                    <div class="project__arrow"></div>
                   </div>
                   <div class="project__inner">
                     <div class="spinner"></div>
