@@ -1,0 +1,147 @@
+section {
+width: 100%;
+/*height: 100vh;
+*/display: block;
+  font-family:ocramono;
+  font-size: 6rem;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 2%; 
+
+
+}
+a{
+  text-decoration: none;
+}
+.colorblack{color: black;
+  transition: all 1s ease;
+}
+.colorblack:hover{color: white;}
+.colorwhite{color: white;
+  transition: all 1s ease;
+}
+.colorwhite:hover{color: blue;}
+
+
+/*SECTION ONE
+*/
+
+
+.sectionmenu-one {
+  background-color: black;
+  font-family: ocr-a-std, monospace;
+  font-weight: 200;
+  color: white;
+}
+
+.sectionmenu-one .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-one .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 2vh;
+}
+
+/*SECTION TWO
+*/
+  .sectionmenu-two {
+  background-color: blue;
+  color: black;
+  font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-two .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-two .centermenu {
+  height: 100%;
+  width:100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 2vh;}
+
+/*SECTION THREE
+*/
+
+  .sectionmenu-three {
+  background-color: black;
+  color: white;
+  font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-three .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-three .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;
+padding-top: 2vh;}
+
+/*SECTION FOUR
+*/
+   .sectionmenu-four {
+  background-color: blue;
+  color: black;
+  font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-four .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-four .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;
+padding-top: 2vh;}
+
+
+/*SECTION FIVE
+*/
+   .sectionmenu-five {
+  background-color: black;
+  color: white;
+}
+
+.sectionmenu-five .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 50vh;
+}
+
+.sectionmenu-five .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;}
+   

@@ -1,0 +1,297 @@
+body{
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            overflow: hidden;
+            background-color: #efeef3;
+        }
+        *{
+            box-sizing: border-box;
+            font-family:"Ginto-Light";
+        }
+
+
+
+
+@media screen and (max-width: 1000px) {
+  h2#intro {
+     top: 30%;
+     font-size: 8vw;
+     line-height: 7.5vw;}
+}
+
+
+
+
+        @font-face {
+    font-family: "Ginto-Regular";
+    src: url(font/Ginto-Regular.woff);
+}
+
+@font-face {
+    font-family: "Ginto-Medium";
+    src: url(font/Ginto-Medium.woff);
+}
+
+
+@font-face {
+    font-family:"Ginto-Light";
+    src: url(font/Ginto-Light.woff);
+}
+
+@font-face {
+    font-family:"Ginto-Thin";
+    src: url(font/Ginto-Thin.woff);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*MENU*/
+
+#cornerTL{height: 35%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 0.5%;
+          left: 0.5%;
+          filter: blur(0px);
+          
+        }
+        
+#cornerTR{height: 35%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 0.5%;
+          right: 0.3%;
+          filter: blur(0px);
+        }
+#cornerBL{height: 35%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 63%;
+          left: 0.5%;
+          filter: blur(0px);
+}
+#cornerBR{height: 42%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 55.5%;
+          right: 0.5%;
+          filter: blur(0px);
+}
+
+
+#cornerBR:hover{  filter: invert(1);
+}
+#cornerBL:hover{  filter: invert(1);
+}
+#cornerTR:hover{  filter: invert(1);
+}
+#cornerTL:hover{  filter: invert(1);
+}
+
+@media screen and (max-width: 1000px) {
+
+#cornerBL {height: 17%;
+           top: 82%;}
+#cornerBR {height: 19%;
+           top: 80%;}
+#cornerTR {height: 17%;}
+#cornerTL {height: 17%;}
+
+}
+       
+        #pointer{
+            width:20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            left: 45px;
+            top: 20%;
+        }
+        img { width: 100%;
+              height: auto; }
+
+        #box{
+            position: relative;
+            width: 600px;
+            height: 200px;
+            border-radius: 5px;
+            transform-origin: 10px 10px;
+            animation: rotate 3.5s linear infinite;
+        }
+        @keyframes rotate{
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    
+    #puissance{
+               top:-10%;
+               font-size: 40px;
+               }
+
+  
+        #station {color: black;
+                  top: 70%;
+                  font-family:"Ginto-Light";
+                  font-size:5em;
+                  position: fixed;
+                  text-decoration: none;
+                  text-align: center;
+                   margin-left: auto;
+                   margin-right: auto;
+                }
+
+ #demo {
+               color: black;
+                  top: 4%;
+                  font-family:"Ginto-Light";
+                  right: 300px;
+                  left: 300px;
+                  font-size:2em;
+                  position: fixed;
+                  text-transform: uppercase; 
+                  border-radius: 20px;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  text-align: center;
+                  
+
+
+
+
+        }   
+
+  #demo1 {
+               color: black;
+                  bottom: 8%;
+                  font-family:"Ginto-Light";   
+                  text-align: center;             
+                  right: 300px;
+                  left: 300px;
+                  font-size:2em;
+                  text-transform: uppercase; 
+                  position: fixed;
+                  border-radius: 20px;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  
+
+
+
+
+        }         
+
+
+       @media screen and (max-width: 800px) {
+
+        #demo { 
+                    
+                  right: 100px;
+                  left: 100px;
+
+        }  
+
+        #demo1 { 
+                    
+                  right: 100px;
+                  left: 100px;
+
+        }  
+        }     
+
+        #desc a{
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+            pointer-events: all;
+        }
+
+.poster {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.poster .poster__element {
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  transition: transform 0.9s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+}
+
+.panel-content {
+  opacity: 0;
+  background-color: black;
+  color: white;
+  will-change: margin-top;
+  transition: all 1.2s;
+  transition-delay: 600ms;
+  margin-top: -5%;
+}
+
+.panel#slice p {font-weight: 5;
+  opacity: 1;
+  font-size:2vw;
+  top: 300px;
+  line-height: 1.5em;
+  max-width: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  left: 47%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);}
+
+
+.panel#slice {
+  background-color:black;
+  font-family: "Ginto-Light"
+  z-index: 1000;
+  color: white; 
+  transition: all 1.2s;
+  z-index: 10000;
+  -webkit-transform: translate3d(0,0%, 0);
+          transform: translate3d(0,0%, 0);
+ opacity: 0.5;
+}
+
+.panel#slice:target {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);  
+          transition: all 1.2s;
+
+}
+
+
+
+

@@ -1,0 +1,1176 @@
+/*MENU*/
+
+section {
+    width: 100%;
+    display: block;
+    font-family: ocramono;
+    font-size: 6rem;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.colorwhiteselect {
+    color: blue;
+    transition: all 1s ease;
+    opacity: 0.15;
+}
+
+.colorwhiteselect:hover {
+    /*color: blue;*/
+}
+
+.colorblack {
+    color: black;
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.colorblack:hover {
+    color: black;
+    opacity: 1;
+}
+
+.colorwhite {
+    color: blue;
+    transition: all 1s ease;
+    opacity: 0.5;
+
+}
+
+.colorwhite:hover {
+    color: blue;
+    opacity: 1;
+}
+
+
+/*SECTION ONE
+*/
+
+.sectionmenu-one {
+    background-color: black;
+    font-family: ocr-a-std, monospace;
+    font-weight: 200;
+    color: white;
+}
+
+.sectionmenu-one .containermenu {
+    display: inline-block;
+    width: 100%;
+    height: 12.5vh;
+}
+
+.sectionmenu-one .centermenu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 2vh;
+}
+
+/*SECTION TWO
+*/
+.sectionmenu-two {
+    background-color: blue;
+    color: black;
+    font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-two .containermenu {
+    display: inline-block;
+    width: 100%;
+    height: 12.5vh;
+}
+
+.sectionmenu-two .centermenu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 2vh;
+}
+
+/*SECTION THREE
+*/
+
+.sectionmenu-three {
+    background-color: black;
+    color: white;
+    font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-three .containermenu {
+    display: inline-block;
+    width: 100%;
+    height: 12.5vh;
+}
+
+.sectionmenu-three .centermenu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 2vh;
+}
+
+/*SECTION FOUR
+*/
+.sectionmenu-four {
+    background-color: blue;
+    color: black;
+    font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-four .containermenu {
+    display: inline-block;
+    width: 100%;
+    height: 12.5vh;
+}
+
+.sectionmenu-four .centermenu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 2vh;
+}
+
+
+/*SECTION FIVE
+*/
+.sectionmenu-five {
+    background-color: black;
+    color: white;
+}
+
+.sectionmenu-five .containermenu {
+    display: inline-block;
+    width: 100%;
+    height: 50vh;
+}
+
+.sectionmenu-five .centermenu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.contenuinnovationnew {
+    padding-left: 15%;
+    padding-right: 15%;
+    box-sizing: border-box;
+
+}
+
+
+
+
+body {
+    background-color: black;
+}
+
+.titremajeurinnovationone {
+    padding-top: 3%;
+}
+
+.innovationenewespacement {
+    padding-bottom: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*ANIMATION*/
+
+.anim-wrapperinnovationone {
+    position: absolute;
+    width: 100%;
+    height: 140vh;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.animationinnovationpremier {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 0%;
+    left: 45%;
+    z-index: 10;
+
+}
+
+.animationinnovationpremierdeux {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 0%;
+    left: 45%;
+
+}
+
+.animationinnovationpremiertrois {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 0%;
+    left: 10%;
+    z-index: 10;
+}
+
+.animationinnovationpremiertroisquatre {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 0%;
+    left: 10%;
+}
+
+.animationinnovationpremiercinque {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 0%;
+    left: 80%;
+    z-index: 10;
+}
+
+.animationinnovationpremiersix {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 0%;
+    left: 80%;
+}
+
+.animationinnovationpremierseriedeux {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 40%;
+    left: 45%;
+    z-index: 10;
+
+}
+
+.animationinnovationpremierdeuxseriedeux {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 40%;
+    left: 45%;
+
+}
+
+.animationinnovationpremiertroisseriedeux {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 40%;
+    left: 10%;
+    z-index: 10;
+}
+
+.animationinnovationpremiertroisquatreseriedeux {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 40%;
+    left: 10%;
+}
+
+.animationinnovationpremiercinqueseriedeux {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 40%;
+    left: 80%;
+    z-index: 10;
+}
+
+.animationinnovationpremiersixseriedeux {
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationpremier;
+    top: 40%;
+    left: 80%;
+}
+
+
+
+@keyframes animationinnovationpremier {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-720deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+.anim-wrapperinnovationtwo {
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.animationinnovationdeuxieme {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxieme 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+}
+
+.animationinnovationdeuxiemetwo {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxieme 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 20%;
+}
+
+.animationinnovationdeuxiemethree {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxieme 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 40%;
+}
+
+.animationinnovationdeuxiemefour {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxieme 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 60%;
+}
+
+.animationinnovationdeuxiemefive {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxieme 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 80%;
+}
+
+
+
+.animationinnovationdeuxiemeways {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxiemeways 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+}
+
+.animationinnovationdeuxiemetwoways {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxiemeways 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 20%;
+}
+
+.animationinnovationdeuxiemethreeways {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxiemeways 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 40%;
+}
+
+.animationinnovationdeuxiemefourways {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxiemeways 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 60%;
+}
+
+.animationinnovationdeuxiemefiveways {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+    animation: animationinnovationdeuxiemeways 6s ease-in-out infinite;
+    position: absolute;
+    animation-delay: 0s;
+    left: 80%;
+}
+
+@keyframes animationinnovationdeuxieme {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-100px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+
+    57% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    64% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    from {
+        bottom: 0vh;
+    }
+
+    20% {
+        bottom: 0vh;
+    }
+
+    50% {
+        bottom: 120vh;
+    }
+
+    to {
+        bottom: 0vh;
+    }
+}
+
+
+@keyframes animationinnovationdeuxiemeways {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-100px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+
+    57% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    64% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    from {
+        bottom: 120vh;
+    }
+
+    20% {
+        bottom: 120vh;
+    }
+
+    50% {
+        bottom: 0vh;
+    }
+
+    to {
+        bottom: 120vh;
+    }
+}
+
+
+.anim-wrapperinnovationquatre {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.animationinnovationquatre{
+    height: 30vh;
+    width: 12vw;
+    position: absolute;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationquatredeuxzero;
+    border-radius: 10%;
+}
+.animationinnovationquatretrois{
+    height: 30vh;
+    width: 12vw;
+    position: absolute;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationquatredeuxzerodeux;
+    border-radius: 10%;
+
+}
+
+@keyframes animationinnovationquatredeuxzero {
+    0% {
+        transform: scale(0.4);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(0.4);
+    }
+
+    from {
+
+    }
+
+    20% {
+        left: 50%;
+        opacity: 1;
+        bottom: 70%;
+        background-color: black;
+    }
+
+    40% {
+        left: 20%;
+        bottom: 40%;
+        background-color: blue;
+    }
+
+
+    60% {
+        left: 50%;
+        opacity: 1;
+        bottom: 60%;
+        background-color: black;
+    }
+
+    80% {
+        left: 70%;
+        bottom: 40%;
+        background-color: blue;
+    }
+
+
+    to {
+        left: 50%;
+        opacity: 1;
+        bottom: 70%;
+    }
+}
+
+
+@keyframes animationinnovationquatredeuxzerodeux {
+    0% {
+        transform: scale(0.4);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(0.4);
+    }
+
+    from {
+
+    }
+
+    20% {
+        left: 50%;
+        opacity: 1;
+        bottom: 50%;
+        background-color: black;
+    }
+
+    40% {
+        left: 20%;
+        bottom: 0%;
+        background-color: blue;
+    }
+
+
+    60% {
+        left: 50%;
+        opacity: 1;
+        bottom: 20%;
+        background-color: black;
+    }
+
+    80% {
+        left: 70%;
+        bottom: 0%;
+        background-color: blue;
+    }
+
+
+    to {
+        left: 50%;
+        opacity: 1;
+        bottom: 50%;
+    }
+}
+
+
+
+
+
+.animationinnovationquatredeux {
+    height: 30vh;
+    width: 12vw;
+    position: absolute;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationquatredeux;
+    border-radius: 10%;
+}
+.animationinnovationquatrequatre{
+    height: 30vh;
+    width: 12vw;
+    position: absolute;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-name: animationinnovationquatredeuxdeux;
+    border-radius: 10%;
+
+}
+ 
+
+
+
+@keyframes animationinnovationquatredeuxdeux {
+    0% {
+        transform: scale(0.4);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(0.4);
+    }
+
+    from {
+
+    }
+
+    20% {
+        right: 50%;
+        opacity: 1;
+        bottom: 50%;
+        background-color: black;
+    }
+
+    40% {
+        right: 20%;
+        bottom: 0%;
+        background-color: blue;
+    }
+
+
+    60% {
+        right: 50%;
+        opacity: 1;
+        bottom: 20%;
+        background-color: black;
+    }
+
+    80% {
+        right: 70%;
+        bottom: 0%;
+        background-color: blue;
+    }
+
+
+    to {
+        right: 50%;
+        opacity: 1;
+        bottom: 50%;
+    }
+}
+
+@keyframes animationinnovationquatredeux {
+    0% {
+        transform: scale(0.4);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(0.4);
+    }
+
+    from {
+
+    }
+
+    20% {
+        right: 50%;
+        opacity: 1;
+        bottom: 70%;
+        background-color: black;
+    }
+
+    40% {
+        right: 20%;
+        bottom: 40%;
+        background-color: blue;
+    }
+
+
+    60% {
+        right: 50%;
+        opacity: 1;
+        bottom: 60%;
+        background-color: black;
+    }
+
+    80% {
+        right: 70%;
+        bottom: 40%;
+        background-color: blue;
+    }
+
+
+    to {
+        right: 50%;
+        opacity: 1;
+        bottom: 70%;
+    }
+}
+
+
+@keyframes animationinnovationdeuxiemetwoscale {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+
+.anim-wrapperinnovationthree {
+    position: absolute;
+    width: 100%;
+    height: 180vh;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.animationinnovationtrois {
+    width: 50%;
+    height: 30%;
+    background: black;
+    position: absolute;
+    border-radius: 5%;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-name: rotate-bl;
+    animation-delay: 0s;
+    top: 15%;
+    left: 5%;
+}
+
+.animationinnovationtroistwo{
+    width: 50%;
+    height: 30%;
+    background:black;
+    position: absolute;
+    border-radius: 5%;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-name: rotate-bl;
+    animation-delay: -20s;
+    top: 30%;
+    left: 55%;
+
+}
+
+.animationinnovationtroisthree{
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    border-radius: 5%;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-name: rotate-bltwo;
+    animation-delay: -8s;
+    top: 45%;
+    left: 25%;
+
+}
+
+@keyframes rotate-bl {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(1800deg);
+            transform: rotate(1800deg);
+
+  }
+}
+
+@keyframes rotate-bltwo {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    background-color: black;
+  }
+
+  50%{background-color: blue;
+  }
+  100% {
+    -webkit-transform: rotate(-1080deg);
+    transform: rotate(-1080deg);
+    background-color: black;
+
+
+  }
+}
+
+
+
+
+
+/*MEDIA QUERY*/
+
+
+@media screen and (max-width: 1400px) {
+
+    .anim-wrapperinnovationone {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .anim-wrapperinnovationtwo {
+        position: absolute;
+        width: 100%;
+        height: 130vh;
+        overflow: hidden;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+.contenuinnovationnew { 
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .anim-wrapperinnovationone {
+        position: absolute;
+        width: 100%;
+        height: 108vh;
+        overflow: hidden;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .anim-wrapperinnovationone {
+        position: absolute;
+        width: 100%;
+        height: 95vh;
+        overflow: hidden;
+
+    }
+    .anim-wrapperinnovationquatre {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+
+    .anim-wrapperinnovationone {
+        position: absolute;
+        width: 100%;
+        height: 86vh;
+        overflow: hidden;
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+
+    .anim-wrapperinnovationone {
+        position: absolute;
+        width: 100%;
+        height: 97vh;
+        overflow: hidden;
+    }
+    .anim-wrapperinnovationquatre {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+}
+
+/*CLASSES POUR DISPARITION ANIMATIONS*/
+
+.scaleFluide {
+    transform: scale(0.0, 0.0); 
+    opacity: 0;
+    transition: 1s;
+    /*    opacity: 0;*/
+}
+.scaleFluideSix {
+/*    transform: scale(0.0, 0.0);*/
+    opacity: 0;
+    transition: 1s;
+    /*    opacity: 0;*/
+}
+
+

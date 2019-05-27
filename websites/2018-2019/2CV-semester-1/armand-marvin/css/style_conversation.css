@@ -1,0 +1,174 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+body
+{
+  background-color: #efeef3;
+  color: black;
+  width:100%;
+  font-family: "Ginto-Light";
+  font-weight: 1;
+  font-weight: lighter;
+  overflow:scroll;
+}
+
+@font-face {
+    font-family: "Ginto-Regular";
+    src: url(font/Ginto-Regular.woff);
+}
+
+@font-face {
+    font-family: "Ginto-Medium";
+    src: url(font/Ginto-Medium.woff);
+}
+
+
+@font-face {
+    font-family:"Ginto-Light";
+    src: url(font/Ginto-Light.woff);
+}
+
+@font-face {
+    font-family:"Ginto-Thin";
+    src: url(font/Ginto-Thin.woff);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+/*MENU*/
+
+#cornerTL{height: 35%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 0.5%;
+          left: 0.5%;
+          filter: blur(0px);
+          z-index: 300000;
+          
+        }
+        
+#cornerTR{height: 35%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 0.5%;
+          right: 0.3%;
+          filter: blur(0px);
+           z-index: 300000;
+        }
+#cornerBL{height: 35%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 63%;
+          left: 0.5%;
+          filter: blur(0px);
+           z-index: 300000;
+}
+#cornerBR{height: 42%;
+          width: auto;
+          z-index: 1;
+          position: fixed;
+          top: 55.5%;
+          right: 0.5%;
+          filter: blur(0px);
+           z-index: 300000;
+}
+
+
+#cornerBR:hover{  filter: invert(1);
+}
+#cornerBL:hover{  filter: invert(1);
+}
+#cornerTR:hover{  filter: invert(1);
+}
+#cornerTL:hover{  filter: invert(1);
+}
+
+@media screen and (max-width: 1000px) {
+
+#cornerBL {height: 17%;
+           top: 82%;}
+#cornerBR {height: 21%;
+           top: 78%;}
+#cornerTR {height: 17%;}
+#cornerTL {height: 17%;}
+
+}
+
+/*TEXTE QUI S'ÉCRIT*/
+
+.back
+{
+  width: auto;
+  text-transform: uppercase;
+  text-align: left;
+  height: 70%;
+  position: relative;
+  color:black;
+  display: inline-block;
+  overflow-y:scroll;
+  padding-bottom: 100px;
+  font-size:6em;
+  line-height: 1em;
+  font-weight:0.1em;
+  top:10vh;
+  margin-right:10vw;
+  margin-left:10vw;
+}
+
+.trigger {
+  color: black !important;
+  text-transform: uppercase;
+}
+
+ #gif { width: 10%;
+       height: 10%; }
+   
+.phone_text {
+ position: fixed;
+ opacity: 1;
+ text-align: center;
+ top: -300px;
+ left: 350px;
+ margin-right: auto;
+ margin-left:auto;
+ font-size: 15px;
+ text-transform: uppercase;
+ border-radius: 20px;
+ z-index: 1000;
+  background-size: cover; 
+  height: 1000px;
+  width: 800px;
+
+}
+
+@media screen and (max-width: 600px) {
+.phone_text { 
+ left: -100px;
+
+}
+}
+
+#gif { left:100px; }
+
+.phone_text img { width: 50%;
+               height: auto; }
+
+
+.phone_text.white {
+  color: black;
+}
+.phone_text.black {
+  color: white;
+}
+
+
+

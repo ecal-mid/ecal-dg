@@ -1,0 +1,311 @@
+@charset "UTF-8";
+.espacetitletopspace{
+  padding-top: 35px;
+}
+
+*{box-sizing: border-box;}
+
+html {
+  width: 100%;
+  cursor: url(../images/cursor.png)70 70, auto;
+}
+
+body {
+  width: 100%;
+  font-size: 5em;}
+
+h1{font-size: 4vw;
+  font-family: ocr-a-std, monospace;
+  font-weight: bold;
+  color: blue;
+  opacity: 1;
+  z-index:5;
+  text-align: center;
+  } 
+
+h2{font-size: 3vw;
+  font-family: ocr-a-std, monospace;
+  font-weight: bold;
+  line-height: auto;
+  color: blue;
+} 
+
+h3{font-size: 2vw;
+font-family: obvia, sans-serif;  
+color: blue;
+} 
+
+h4{font-size: 3.4vw;
+  font-family: ocr-a-std, monospace;
+  font-weight: bold;
+ } 
+
+h5{font-size: 1.7vw;
+  font-family: ocr-a-std, monospace;
+  font-weight: bold;
+ }   
+
+h6{font-size: 1.4vw;
+font-family: obvia, sans-serif;  
+} 
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*INNOVATION*/
+
+.innovationglobalglobalfond{
+  background-color: black; 
+}
+
+.innovationglobalglobaltexte{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.textinnovationglobal{
+  background-color: black;  
+}
+
+.innovationespacementparagraphe{
+  padding-bottom: 40px;
+}
+/*FONCTIONNEMENT*/
+
+.fonctionnementglobal{
+    background-color: black;  
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.fonctionnementespacementparagraphe{
+    padding-bottom: 40px;
+    
+}
+/*HISTORIQUE*/
+
+.deuxcolonnes{
+  columns: 2;
+}
+#blackbackgoundtitlehistorique{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+.titrehistorique{
+  text-align: center;
+  padding-top: 37vh;
+}
+
+.soustitrehistorique{
+  text-align: center;
+}
+
+#blackbackgroundhistorique{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.introductionhistorique{ 
+  padding-top: 30vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.texthistoriqueglobal{
+  background-color: black; 
+}
+.texthistoriqueglobalcontent{
+margin-left: 2%;
+}
+
+#blackbackgoundtitle{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+#blackbackgroundintroduction{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+/*EXPERIMENTATION
+*/
+
+.experimentationbackground{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.oreille1{
+  display: inline-block;
+  width: 19.3%;
+}
+
+.oreille1:hover{
+  background-color: blue;
+}
+.oreille2:hover{
+  background-color: blue;
+}
+.oreille3:hover{
+  background-color: blue;
+}
+.oreille4:hover{
+  background-color: blue;
+}
+.oreille5:hover{
+  background-color: blue;
+}
+.oreille6:hover{
+  background-color: blue;
+}
+.oreille7:hover{
+  background-color: blue;
+}
+.oreille8:hover{
+  background-color: blue;
+}
+
+.oreille2{
+  display: inline-block;
+    width: 19.3%;
+}
+
+.oreille3{
+  display: inline-block;
+    width: 19.3%;
+}
+
+.oreille4{
+  display: inline-block;
+  width: 19.3%;
+}
+
+.oreille5{
+  display: inline-block;
+    width: 19.3%;
+}
+
+.oreille6{
+  display: inline-block;
+    width: 19.3%;
+}
+
+.oreille7{
+  display: inline-block;
+    width: 19.3%;
+}
+
+.oreille8{
+  display: inline-block;
+    width: 19.3%;
+}
+
+
+/*ANIMATION OREILLE1
+
+*/.oreille1contenu{display: none;}
+.oreille1contenuon{display:block;}
+
+.container{
+  height: 800px;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+}
+
+.square{
+  height: 94%;
+  width: 94%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -47% 0 0 -47%;
+}
+
+.black{ 
+  background: black;  
+  animation: rotate 10s infinite linear; 
+}
+
+@keyframes rotate{
+  0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg); }  
+}
+
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 1000px) {
+  
+  h1{font-size: 3rem;} 
+  
+  
+  h2{font-size: 2rem;} 
+  
+  
+  h3{font-size: 1.5rem;}
+
+  h4{font-size: 3rem;} 
+  
+  
+  h5{font-size: 2rem;} 
+  
+  
+  h6{font-size: 1.5rem;}
+
+}
+
+@media screen and (max-width: 600px) {
+  
+  h1{font-size: 1.8rem;} 
+  
+  
+  h2{font-size: 1.5rem;} 
+  
+  
+  h3{font-size: 1.3rem;}
+
+  h4{font-size: 1.8rem;} 
+  
+  
+  h5{font-size: 1.5rem;} 
+  
+  
+  h6{font-size: 1.3rem;} 
+
+}
+
+@media screen and (max-width: 400px) {
+  
+  h1{font-size: 1.5rem;} 
+  
+  
+  h2{font-size: 1.3rem;} 
+  
+  
+  h3{font-size: 1.1rem;} 
+
+  h4{font-size: 1.5rem;} 
+  
+  
+  h5{font-size: 1.2rem;} 
+  
+  
+  h6{font-size: 1rem;}
+
+}
+
+
+
+

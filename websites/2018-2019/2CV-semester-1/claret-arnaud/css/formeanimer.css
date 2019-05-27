@@ -1,0 +1,51 @@
+
+#oreilleauditifSVG{
+  position: absolute;
+  width: 63%;
+  height:50vh;
+  margin-left: 33vw;
+}
+
+.oreilleOff{
+  display: none;
+}
+.oreilleOn{
+  display:block !important;
+}
+
+
+.animationformeone{
+	width: 63%;
+	height:100vh;
+	margin-left: 33vw;
+	position: absolute;
+  display:none;
+
+}
+.containerformeone{
+  height: 1200px;
+  width: 1200px;
+  position: absolute;
+
+}
+
+.square{
+  height: 94%;
+  width: 94%;
+  background: white;
+  position: absolute;
+
+
+}
+
+  .black{ 
+  background: black;  
+  animation: rotate 10s infinite linear; 
+
+}
+
+@keyframes rotate{
+  0%{ transform: rotate(0deg); }
+  50%{ transform: scale(1.15); }
+    100%{ transform: rotate(360deg); }  
+

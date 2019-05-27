@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Ginto Regular';
+  src: url('Ginto Regular.eot');
+  src: url('Ginto Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ginto-Regular';
+  src: url('Ginto-Regular.woff') format('woff'),
+       url('Ginto-Regular.ttf') format('truetype'),
+       url('Ginto-Regular.svg#Ginto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,332 @@
+
+
+
+
+/*DIVERS*/
+.containerfonctionnementone{
+	  height: 1200px;
+  position: absolute;
+    margin-left: 33vw;
+}
+
+/*MENU*/
+.crossmenuiconsandwish{
+position: fixed;
+margin-left: 90vw;
+z-index: 1000;
+opacity: 0.5;
+
+}
+
+.crossmenuiconsandwish:hover{
+opacity: 1;}
+
+
+.menuiconsandwish{
+position: fixed;
+margin-left: 90vw;
+z-index: 10;
+opacity: 0.5;
+}
+
+
+.menuiconsandwish:hover{opacity: 1;}
+
+
+#menuiconacacher{
+	display: block;
+  position: fixed;
+}
+#menuiconacacheron{
+	display: none;
+}
+
+
+#menuamontrer{display: none;}
+#menuamontreron{display: block;}
+
+.menu-nouveautwo:hover{
+opacity: 1;}
+
+.menu-nouveau-cachertwo:hover{
+opacity: 1;}
+
+.menu-nouveautwo {
+  display: block;
+  width: 12vw;
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  z-index: 100000;
+  opacity: 0.5;
+}
+
+.menu-nouveau-cachertwo {
+  display: none;
+  width: 12vw;
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  z-index: 100000;
+  opacity:0.5;
+}
+.menu-nouveau {
+  display: block;
+  width: 12vw;
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  z-index: 100000;
+}
+
+.menu-nouveau-cacher {
+  display: none;
+  width: 12vw;
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  z-index: 100000;
+}
+
+/*PANNEAUX
+*/
+#resaslid { position:fixed;  left:0; z-index:400; 
+}
+.panel {
+  overflow: hidden;
+  width:100vw;
+  transition: height 1s ease-in-out;
+  height: 0vh;
+  opacity: 0.93;
+}
+
+.show-panel {
+  height: 100vh;
+}
+
+.slide {
+  padding: 1%;
+	position: fixed;
+	right:0vw;
+	width:13.3vw; 
+	text-align:center;
+}
+
+/*MENU DANS LE PANNEAU
+*/section {
+width: 100%;
+/*height: 100vh;
+*/display: block;
+  font-family:ocramono;
+  font-size: 7.5vw;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 2%; 
+}
+a{
+  text-decoration: none;
+}
+
+
+.colorblack{color: black;
+  transition: all 1s ease;
+  opacity: 0.6;
+}
+.colorblack:hover{color: black;
+  opacity: 1;}
+
+.colorwhite{color: blue;
+  transition: all 1s ease;
+  opacity: 0.6;
+
+}
+.colorwhite:hover{color: blue;
+  opacity: 1;}
+
+
+/*SECTION ONE
+*/
+
+
+.sectionmenu-one {
+  background-color: black;
+  font-family: ocr-a-std, monospace;
+  font-weight: 200;
+  color: blue;
+}
+
+.sectionmenu-one .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-one .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/*SECTION TWO
+*/
+  .sectionmenu-two {
+  background-color: blue;
+  color: black;
+  font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-two .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-two .centermenu {
+  height: 100%;
+  width:100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;}
+
+/*SECTION THREE
+*/
+
+  .sectionmenu-three {
+  background-color: black;
+  color: blue;
+  font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-three .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-three .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+
+/*SECTION FOUR
+*/
+   .sectionmenu-four {
+  background-color: blue;
+  color: black;
+  font-family: ocr-a-std, monospace;
+
+}
+
+.sectionmenu-four .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 12.5vh;
+}
+
+.sectionmenu-four .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;}
+
+
+/*SECTION FIVE
+*/
+   .sectionmenu-five {
+  background-color: black;
+  color: white;
+}
+
+.sectionmenu-five .containermenu {
+  display: inline-block;
+  width: 100%;
+  height: 50vh;
+}
+
+.sectionmenu-five .centermenu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  box-sizing: border-box;}
+
+
+
+@media screen and (min-width: 1200px) {
+.sectionmenu-one .centermenu {
+padding-top: 3%;}
+.sectionmenu-two .centermenu {
+padding-top: 3%;}
+.sectionmenu-three .centermenu {
+padding-top: 3%;}
+.sectionmenu-four .centermenu {
+padding-top: 3%;}
+
+}
+@media screen and (min-width: 1500px) {
+.sectionmenu-one .centermenu {
+padding-top: 5%;}
+.sectionmenu-two .centermenu {
+padding-top: 5%;}
+.sectionmenu-three .centermenu {
+padding-top: 5%;}
+.sectionmenu-four .centermenu {
+padding-top: 5%;}
+
+}
+@media screen and (max-width: 1000px) {
+.menu-nouveautwo:hover{
+opacity: 1;}
+
+.menu-nouveau-cachertwo:hover{
+opacity: 1;}
+
+.menu-nouveautwo {
+  display: block;
+  width: 12vw;
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  z-index: 100000;
+  opacity: 1;
+  mix-blend-mode: difference;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+.colorblack{color: black;
+  transition: all 1s ease;
+  opacity: 1;
+}
+.colorblack:hover{color: black;
+  opacity: 1;}
+
+.colorwhite{color: blue;
+  transition: all 1s ease;
+  opacity: 1;
+
+}
+.colorwhite:hover{color: blue;
+  opacity: 1;}
+}
+}

@@ -1,0 +1,596 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Numération Maya</title>
+        <link rel="stylesheet" href="src/ddtest.css">
+        <link rel="stylesheet" href="https://use.typekit.net/aqj8tlf.css">
+        <link rel="stylesheet" href="https://use.typekit.net/aqj8tlf.css">
+		<link rel="shortcut icon" type="image/x-icon" href="src/favicon.ico" />
+        <script src="src/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="src/script.js"></script>
+    </head>
+    <body>
+
+
+	<div id="tout">
+
+		<div id="menu">
+    		<div onclick="showHide()" id="exercice1" class="textetitre">
+				<h1 id="exercice1h1">exercice 1</h1>
+			</div>
+			<div class="titre">
+				<h1>numération maya</h1>
+			</div>
+			<div id="bravo">
+				<h1 id="bravoh1">bienvenue</h1>
+			</div>
+		</div>
+
+	    <div class="grandbloc">
+	    	<div class="textetheorie">
+
+				<div class="texteth0">
+	    			<p>Vous désirez découvrir les secrets de la numération maya ? Il suffira simplement de répondre aux différentes questions, avec l’aide des explications ci-dessous. Si vous atteignez toutes les étapes, vous pourrez découvrir la symbolique des chiffres mayas.</p>
+	    		</div>
+	    		<div class="texteth1">
+	    			<p>Dans la culte Maya, les nombres sont écrits en base 20 (base vicésimale ou vigésimale) avec des glyphes simples (des points, et des barres horizontales). Chaque point vaut 1 et chaque barre - vaut 5. </p>
+	    		</div>
+	    		<div class="texteth2">
+	    			<p>La civilisation maya utilisait une écriture des nombres verticale (les unités sous les dizaines, etc.).</p>
+	    		</div>
+				<div class="theoriecontent">
+					<img class="theoriesvg" src="res/theorie1.svg" alt="">
+				</div>
+				<div class="texteth2">
+	    			<p>La numération positionnelle était probablement utilisée pour les calculs. On la rencontre par exemple dans les tables de multiples pour le calcul des cycles astronomiques, qui devait donner lieu à des procédés arithmétiques élaborés. </p>
+	    		</div>
+	    		<div class="texteth1">
+	    			<p> L’écriture est positionnelle presque vigésimale (le facteur multiplicatif d'une position à la suivante est vingt, sauf pour le passage de la deuxième à la troisième.</p>
+	    		</div>
+	    		<div class="theoriecontent2">
+					<img class="theoriesvg" src="res/theorie2.svg" alt="">
+				</div>
+
+				<div class="texteth0">
+	    			<p>Pour maîtriser la numération maya, il faut également connaître comment communiquer les chiffres oralement. Vous trouverez donc ci-dessous la traduction maya des chiffres de 1 à 100 </p>
+	    		</div>
+
+				<div id="chiffres">
+					<div class="texteth3">
+		    			1. Hun.
+		    		</div>
+		    		<div class="texteth3">
+		    			2. Ca.
+		    		</div>
+		    		<div class="texteth3">
+		    			3. Ox.
+		    		</div>
+		    		<div class="texteth3">
+		    			4. Can.
+		    		</div>
+		    		<div class="texteth3">
+		    			5. Ho.
+		    		</div>
+		    		<div class="texteth3">
+		    			6. Uac.
+		    		</div>
+		    		<div class="texteth3">
+		    			7. Uuc.
+		    		</div>
+		    		<div class="texteth3">
+		    			8. Uaxac.
+		    		</div>
+		    		<div class="texteth3">
+		    			9. Bolon.
+		    		</div>
+		    		<div class="texteth3">
+		    			10. Lahun.
+		    		</div>
+		    		<div class="texteth3">
+		    			11. Buluc.
+		    		</div>
+		    		<div class="texteth3">
+		    			12. Lahcá.
+		    		</div>
+		    		<div class="texteth3">
+		    			13. Oxlahun.
+		    		</div>
+		    		<div class="texteth3">
+		    			14. Canlahun.
+		    		</div>
+		    		<div class="texteth3">
+		    			15. Holhun.
+		    		</div>
+		    		<div class="texteth3">
+		    			16. Uaclahun.
+		    		</div>
+		    		<div class="texteth3">
+		    			17. Uuclahun.
+		    		</div>
+		    		<div class="texteth3">
+		    			18. Uaxaclahun.
+		    		</div>
+		    		<div class="texteth3">
+		    			19. Bolonlahun.
+		    		</div>
+		    		<div class="texteth3">
+		    			20. Hunkal.
+		    		</div>
+		    		<div class="texteth3">
+		    			21. Huntukal.
+		    		</div>
+		    		<div class="texteth3">
+		    			22. Catukal.
+		    		</div>
+		    		<div class="texteth3">
+		    			23. Oxtukal
+		    		</div>
+		    		<div class="texteth3">
+		    			24. Cantukal.
+		    		</div>
+		    		<div class="texteth3">
+		    			25. Hotukal.
+		    		</div>
+		    		<div class="texteth3">
+		    			26. Uactukal.
+		    		</div>
+		    		<div class="texteth3">
+		    			27. Uaxactukal.
+		    		</div>
+		    		<div class="texteth3">
+		    			29. Bolontukal.
+		    		</div>
+		    		<div class="texteth3">
+		    			30. Lahucakal.
+		    		</div>
+
+
+				</div>
+
+			</div>
+
+
+
+
+
+	    </div>
+
+		<div class="mot" id="popup">
+     		<p id="pmot">?</p>
+    	</div>
+
+
+
+
+
+	<div class="main-container">
+
+       <!-- calcul 1 -->
+	   <div class="lignes show" data-answer="9">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg1" src="res/9.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste" src="res/oui1.svg" alt="">
+					</a>
+					<a class="texte2" id="chat"></a>
+				</div>
+			</div>
+		</div>
+	<!-- calcul 2 -->
+		<div class="lignes" data-answer="12">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg2" src="res/12.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui2.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	<!-- calcul 3 -->
+		<div class="lignes" data-answer="16">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg3" src="res/16.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui3.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	<!-- calcul 4 -->
+		<div class="lignes" data-answer="3">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg4" src="res/3.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui4.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+			<!-- calcul 5 -->
+		<div class="lignes" data-answer="14">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg5" src="res/14.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui5.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+	<!-- EXERCICE2 -->
+		<!-- calcul 6 -->
+
+		<div class="lignes" data-answer="548">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg6" src="res/548.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui6.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- calcul 7 -->
+		<div class="lignes" data-answer="2054">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg7" src="res/2054.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui7.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+			<!-- calcul 8-->
+		<div class="lignes" data-answer="4089">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg8" src="res/4089.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui8.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+			<!-- calcul 9-->
+		<div class="lignes" data-answer="968">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg8" src="res/968.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui9.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+			<!-- calcul 10-->
+		<div class="lignes" data-answer="2507">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2">
+						<img class="svg8" src="res/2507.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui10.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- EXERCICE3 -->
+			<!-- calcul 11-->
+		<div class="lignes" data-answer="45">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2 tombe">
+						<p>Hotuyoxkal</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui11.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+			<!-- calcul 12-->
+		<div class="lignes" data-answer="11">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2 tombe">
+						<p>Buluc</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui12.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+			<!-- calcul 13-->
+		<div class="lignes" data-answer="95">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2 tombe">
+						<p>Holhutuyokal</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui13.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- calcul 14-->
+		<div class="lignes" data-answer="14">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2 tombe">
+						<p>Canlahun.</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui14.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- calcul 15-->
+		<div class="lignes" data-answer="40">
+			<div class="box box-blue">
+				<div class="content">
+					<a id="question" class="texte2 tombe">
+						<p>Cakal.</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="box box-blue">
+				<div class="content">
+					<input class="texte2 answer">
+				</div>
+			</div>
+
+			<div class="box box-blue reaction">
+				<div class="content">
+					<a id="question" class="texte2">
+					<img class="svgjuste2" src="res/oui15.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+<audio id="musique">
+	<source src="musique/musiqueenaction.mp3" type="audio/mp3">
+</audio>
+<audio id="musique2">
+	<source src="musique/wrong.mp3" type="audio/mp3">
+</audio>
+
+
+		<div class="lignes2" id="lignes2id">
+		    <div class="box-blue radius">
+		    	<div class="bloc">
+					<div class="poster0"></div>
+			    		<div id="sens0">
+			    			<img id="imgsens0" src="res/sens1.svg" alt="sens0">
+			    		</div>
+
+			    		<div class="motsens place_mot1">
+	      					<p class="pplace_mot1">un</p>
+	    				</div>
+
+	    				<div class="motsens place_mot2">
+	      					<p class="pplace_mot2">temps</p>
+	    				</div>
+
+	    				<div class="motsens place_mot3">
+	      					<p class="pplace_mot3">création</p>
+	    				</div>
+
+	    				<div class="motsens place_mot4">
+	      					<p class="pplace_mot4">le tout</p>
+	    				</div>
+	    				<div class="motsens place_mot5">
+	      					<p class="pplace_mot5">univers</p>
+	    				</div>
+	    				<div class="motsens place_mot6">
+	      					<p class="pplace_mot6">unité</p>
+	    				</div>
+			      	</div>
+	    			</div>
+				</div>
+    		</div>
+    	</div>
+   </div>
+</div>
+    </body>
+    <script src="src/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="src/script.js"></script>
+	<script src="src/checkAnswers.js"></script>
+</html>

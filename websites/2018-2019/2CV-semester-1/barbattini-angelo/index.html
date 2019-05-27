@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html class="hand-1">
+<title>HOW TO BECOME A YAKUZA</title>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+</head>
+<!--
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+-->
+<link rel="stylesheet" href="style/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js"></script>
+
+
+<body style="overflow:hidden">
+  <div class="modals">
+    <div class="modal modal__game-over">
+      <!-- <h1>Game Over</h1> -->
+      <img src="https://media.giphy.com/media/3o8dp4hg6vqa09l2aA/giphy.gif">
+      <img src="https://media.giphy.com/media/8Z5xJbiqa2hS25nweC/giphy.gif">
+      <img src="https://media.giphy.com/media/wEhbihZYQ7Gp2/giphy.gif">
+      <img src="https://media.giphy.com/media/3NXpcF0foIcxi/giphy.gif">
+      <img src="https://media.giphy.com/media/3ov9kaVYEtoRNGFhy8/giphy.gif">
+    </div>
+
+    <div class="modal modal__win">
+      <h6>Vous gagnez la confiance des Yakuzas! Continuez comme ça!</h6>
+      <img src="" alt="">
+    </div>
+  </div>
+
+
+
+  <!-- Splash-page -->
+  <div class="panel panel-0">
+    <div class="panel-content">
+      <div class="title">
+        Comment monter dans le système des Yakuzas.
+      </div>
+      <div class="row" style="color:blue;">
+        <div class="column" style="text-align:center; font-size: 0.3em;">INFORMATIONS</div>
+        <div class="column" style="text-align:center; font-size: 0.3em;">Naviguez avec <span style="background:red;">&#8594;
+            N°0</span></div>
+        <div class="column" style="text-align:center; font-size: 0.3em;">Drag & drop pour jouer.
+          <img style="width:auto; height:20px;transform: translate(50%,20%);" src="./img/cursor-hand.svg">
+        </div>
+        <div class="column" style="text-align:center; font-size: 0.3em;">Cliquez sur le text pour vous cultiver</div>
+      </div>
+      <div class="move" style=" position: absolute;
+bottom: 0px; width:100%; text-align: center;" data-target=".panel-0">ENTREZ
+        DANS LE GANG</div>
+    </div>
+  </div>
+  <!-- Panel 1 -->
+  <div class="panel panel-1">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Oubossha</font>
+          </div>
+          <div class="column" style="text-align: center;">BAS GRADÉS</div>
+          <div class="column n" id="niveau" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white; ">
+            <span class="nnn">&#8594;
+              N°0</span></div>
+        </div>
+      </div>
+
+      <!-- game -->
+      <div class="grade" data-target=".panel-1" data-win-text="Go!" data-win-img="https://media.giphy.com/media/Tn23HoVjCqEZG/giphy.gif">
+        <div class="grade__timeline" data-time="10">
+          <div class="grade__timeline-line">
+          </div>
+          <div class="grade__timeline-knife">
+            <img src="img/knife.svg" alt="">
+          </div>
+        </div>
+        <div class="grade__game">
+          <div class="grade__game-circle" style="border:0px;">
+            <img src="./img/cursor-hand.svg">
+            <img src="./img/cursor-hand.svg">
+          </div>
+          <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%;     transform: translate(-70%, -70%);"><img
+              src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg" alt=""></div>
+          <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%;  transform: translate(-70%, -70%);"><img
+              src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg" alt=""></div>
+          <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%;  transform: translate(-70%, -70%);"><img
+              src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg" alt=""></div>
+        </div>
+      </div>
+      <!-- texts -->
+      <div>
+        <p class="panel__text">
+          Le rang de départ de chaque famille.
+        </p>
+        <p class="panel__text">
+          Il souhaite rentrer dans la Mafia.
+        </p>
+        <p class="panel__text">
+          Il doit trouver un Shirouto ou plus pour le recruter.
+        </p>
+        <p class="panel__text">
+          Il n’est pas autorisé à parler, sauf pour faire les politesses, ou si on lui pose des questions.
+        </p>
+        <p class="panel__text"> Il n’a pas le droit d’aller dans l’espace réservé aux membres MY du GH.
+        </p>
+        <p class="panel__text">
+          Il lui est interdit de saccager. Il doit indiquer les postit aux arrivants.
+        </p>
+        <p class="panel__text">
+          Il doit rester debout mais si un haut gradés lui autorise de s’asseoir il pourra le faire (sur les Deals).
+        </p>
+        <p class="panel__text">
+          Il peut faire des meurtres, son arme sont ces mains nues.
+        </p>
+        <p class="panel__text">
+          Il devra mettreOubosha dans sa mission et porter: haut Japonais Blanc manches longues,
+          Pantalon Blanc et des chaussures noires.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PANE-2 -->
+  <div class="panel panel-2">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Kobun</font>
+          </div>
+          <div class="column" style="text-align: center;">BAS GRADÉS</div>
+          <div class="column n" id="niveau" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white; ">
+            <div class="hover">
+              <span class="nnn">&#8594;N°1</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-2" data-win-text="Goo!" data-win-img="https://media.giphy.com/media/eU9F9JXWbIZQA/giphy.gif">
+        <div class="grade__timeline" data-time="10">
+          <div class="grade__timeline-line"></div>
+          <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+          </div>
+        </div>
+        <div class="grade__game">
+          <div class="grade__game-circle" style="border:0px;">
+            <img src="./img/cursor-hand.svg">
+            <img src="./img/cursor-hand.svg">
+          </div>
+          <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+              alt=""></div>
+          <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+              alt=""></div>
+          <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+              alt=""></div>
+          <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+              alt=""></div>
+        </div>
+      </div>
+      <!-- TEXTE -->
+      <div>
+        <p class="panel__text">Nouveau membre, sa loyauté n'est pas encore démontrée.
+        </p>
+        <p class="panel__text">
+          Il peut s’asseoir en demandant la permission.
+        </p>
+        <p class="panel__text">
+          Il a le droit d’imposer des certificats MY mais uniquement
+          dans les
+          Mafias mais d’abord en demandant un haut gradés et de les saccager, si
+          il y a un refus de certificat MY.
+        </p>
+        <p class="panel__text">
+          Il a le droit de rentrer dans l’espace réservé aux mafieux du
+          GH.
+        </p>
+        <p class="panel__text">
+          Sa mission est donnée par un
+          Shirouto ou plus. Lorsqu'il n'en a pas il ne doit pas rester inactif,
+          en attendant, il se trouve lui même sa mission et s’il est au GH il
+          doit indiquer les postits aux arrivants.
+        </p>
+        <p class="panel__text">
+          Il est interdit d’envoyer des textamigos aux supérieurs.
+        </p>
+        <p class="panel__text">
+          Il ne peut pas s'adresser directement aux Waka-Gashira et
+          plus.
+        </p>
+        <p class="panel__text">
+          Il doit passer par
+          l'intermédiaire d’un Shirouto.
+        </p>
+        <p class="panel__text">
+          Il ne peut pas donner d’ordres ou de missions aux Oubosha.
+        </p>
+        <p class="panel__text">
+          Pour les meurtres son arme est
+          le poing américain.
+        </p>
+        <p class="panel__text">
+          Il devra
+          mettre Kobun [F.(initiale de la Famille indiquée par un
+          Oyabun ou un Souke)] dans sa mission et porter la tenue indiquée dans
+          la catégorie de sa famille.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- panel_3 -->
+  <div class="panel panel-3">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Shatei</font>
+          </div>
+          <div class="column" style="text-align: center;">BAS GRADÉS</div>
+          <div class="column n" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white; ">
+            <span class="nnn">&#8594;
+              N°2</span></div>
+        </div>
+      </div>
+
+
+      <div class="grade" data-target=".panel-3" data-win-text="Gooo!" data-win-img="https://media.giphy.com/media/LmYt5ZHZKI1ws/giphy.gif">
+
+        <div class="grade" data-target=".panel-3">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand.svg">
+              <img src="./img/cursor-hand.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="panel__text">
+          Sa loyauté n'est pas encore démontré.
+        </p>
+        <p class="panel__text">
+          Il doit demander la permission pour s'asseoir.
+        </p>
+        <p class="panel__text">
+          Il a le droit de s’asseoir sur les trônes mais pas ceux qui
+          sont
+          réservées aux Souke et Oyabun.
+        </p>
+        <p class="panel__text">
+          Il n’a pas le droit de recruter Sa mission est donnée par un
+          Shirouto
+          ou plus.
+        </p>
+        <p class="panel__text">
+          Lorsqu'il n'en a pas il
+          ne doit pas rester inactif, en attendant, il se trouve lui même sa
+          mission.
+        </p>
+        <p class="panel__text">
+          Il ne peut pas
+          s'adresser directement a un Haut gradé et plus.
+        </p>
+        <p class="panel__text">
+          Il doit passer par l'intermédiaire de son Shirouto.
+        </p>
+        <p class="panel__text">
+          Il ne peut pas donner d’ordre ou de mission aux Kobun et
+          Oubosha.
+        </p>
+        <p class="panel__text">
+          Pour les meurtres son arme est un baton en bois.
+        </p>
+        <p class="panel__text">
+          Il devra mettreShatei [F.(initiale de sa famille)]
+          dans
+          sa mission et porter : la tenue indiquée dans la catégorie de sa
+          famille.
+        </p>
+        <p class="panel__text">
+          Il peut poser des
+          certificats sous l’odre d’un Samourai ou plus.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="panel panel-4">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Kyodai</font>
+          </div>
+          <div class="column" style="text-align: center;">BAS GRADÉS</div>
+          <div class="column n" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white; "><span
+              class="nnn">&#8594;
+              N°3</span></div>
+        </div>
+      </div>
+      <div>
+
+        <div class="grade" data-target=".panel-4" data-win-text="Goooo!" data-win-img="https://media.giphy.com/media/3JEXXewALO10s/giphy.gif">
+          <div class="grade" data-target=".panel-4">
+            <div class="grade__timeline" data-time="10">
+              <div class="grade__timeline-line"></div>
+              <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+              </div>
+            </div>
+            <div class="grade__game">
+              <div class="grade__game-circle" style="border:0px;">
+                <img src="./img/cursor-hand.svg">
+                <img src="./img/cursor-hand.svg">
+              </div>
+              <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                  alt=""></div>
+              <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                  alt=""></div>
+              <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                  alt=""></div>
+              <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                  alt=""></div>
+              <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                  alt=""></div>
+              <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                  alt=""></div>
+            </div>
+          </div>
+        </div>
+        <p class="panel__text">
+          Sa loyauté n’est pas encore démontré.
+        </p>
+        <p class="panel__text">
+          Il doit demander la permission pour s’asseoir.
+        </p>
+        <p class="panel__text">
+          Il a le droit de s’asseoir sur les trônes mais pas ceux réservés aux Souke et Oyabun.
+        </p>
+        <p class="panel__text">
+          Il n’a pas le
+          droit de recruter.
+        </p>
+        <p class="panel__text">
+          Sa mission est donnée par un Shirouto ou plus.
+        </p>
+        <p class="panel__text">
+          Lorsqu’il n’en a pas il ne doit pas rester inactif, il se trouve lui-même sa mission.
+        </p>
+        <p class="panel__text">
+          Il doit
+          demander l'autorisation aux Shirouto pour pouvoir informer les
+          Waka-Gashira ou plus s’il a trouvé qu’un membre de la MY nous trahi ou
+          veut nous saccager.
+        </p>
+        <p class="panel__text">
+          Il accueille les visiteurs, il répond à toutes les questions des visiteurs.</p>
+        <p class="panel__text">
+          Mais il sait être stricte avec les boulets.
+        </p>
+        <p class="panel__text">
+          Il ne peut pas s’adresser directement a un Haut gradé ou plus il doit
+          passer par l’intermediaire d’un Shirouto.
+        </p>
+        <p class="panel__text">
+          Il ne peut pas donner d’ordres ou de missions aux moins gradés de
+          lui.
+        </p>
+        <p class="panel__text">
+          Pour les meurtres son arme
+          est une batte.
+        </p>
+        <p class="panel__text">
+          Il devra mettre
+          Kyodai [F.(Initiale de sa famille)] dans sa mission et porter
+          : Haut Japonais Rouge manches longues, pantalon Noirs et chaussures
+          Noires.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="panel panel-5">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Tekiya</font>
+          </div>
+          <div class="column" style="text-align: center;">BAS GRADÉS</div>
+          <div class="column" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white; "><span
+              class="nnn">&#8594;
+              N°4</span></div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-5" data-win-text="Gooooo!" data-win-img="https://media.giphy.com/media/gsjftE0QZbMWY/giphy.gif">
+
+        <div class="grade" data-target=".panel-5">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand.svg">
+              <img src="./img/cursor-hand.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="panel__text">
+          Il a commencé à montrer sa loyauté
+          aux supérieurs.
+        </p>
+        <p class="panel__text">
+          Il n’a pas le
+          droit de recruter.
+        </p>
+        <p class="panel__text">
+          Il a le droit
+          de s’asseoir sur les trônes mais pas ceux réservés aux Souke et
+          Oyabun.
+        </p>
+        <p class="panel__text">
+          Il informe les Samourai
+          et plus des demandes d'alliance.
+        </p>
+        <p class="panel__text">
+          Il doit demander l'autorisation aux Shirouto pour pouvoir
+          informer
+          les haut gradés de seSs actions, ou informations, si elles sont
+          importantes.
+        </p>
+        <p class="panel__text">
+          Il ne peux pas
+          donner des missions ou d’ordres aux moins gradés que lui.
+        </p>
+        <p class="panel__text">
+          Il essaye de repérer les espions.
+        </p>
+        <p class="panel__text">
+          Il peut conseiller l’Affidé sur des bonnes recrues
+          potentielles.
+        </p>
+        <p class="panel__text">
+          Il accueille les visiteurs, il répond à toutes les questions
+          des
+          visiteurs, mais il sait être stricte avec les boulets. Pour les
+          meurtres son arme est le fil à étrangler.
+        </p>
+        <p class="panel__text">
+          Il devra mettre Tekiya [F.(Initiale de sa
+          famille)] dans
+          sa mission et porter la tenue indiquée dans la catégorie de sa
+          famille.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-6">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Shirouto</font>
+          </div>
+          <div class="column" style="text-align: center;">BAS GRADÉS</div>
+          <div class="column" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white; "><span
+              class="nnn">&#8594;
+              N°5</span></div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-6" data-win-text="Goooooo!" data-win-img="https://media.giphy.com/media/OhQBBFi64Z81a/giphy.gif">
+
+        <div class="grade" data-target=".panel-6">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand_black.svg">
+              <img src="./img/cursor-hand_black.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+            <div class="g grade__game-target" name="animate" style="left: 79%; top: 50%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 9.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="panel__text">
+          Il a commencé à montrer sa loyauté
+          aux supérieurs.
+        </p>
+        <p class="panel__text">
+          Il a le droit de
+          recruter.
+        </p>
+        <p class="panel__text">
+          Il a le droit de
+          s’asseoir sur les trônes mais pas ceux qui sont réservés aux Souke et
+          Oyabun.
+        </p>
+        <p class="panel__text">
+          Il peut poser des
+          certificats sans demander.
+        </p>
+        <p class="panel__text">
+          Il
+          informe les hauts gradés et plus des demandes d'alliance, il peut
+          visiter les locaux de ceux qui veulent une alliance.
+        </p>
+        <p class="panel__text">
+          Il peut informer les hauts gradés des actions que font les
+          moins
+          gradés, si elles sont importantes.
+        </p>
+        <p class="panel__text">
+          Il donne les missions aux Kobun et Shatei.
+        </p>
+        <p class="panel__text">
+          Il veille sur les certificats apposés par lui et les autres
+          membres.
+        </p>
+        <p class="panel__text">
+          Il essaye de trouver
+          les espions et il s’il a des informations il doit les dire aux hauts
+          gradés. Pour les meurtres sont armes est le tridents.
+        </p>
+        <p class="panel__text">
+          Il devra mettre[Yakuza] Shirouto [F.(Initiale de sa
+          famille)]
+          dans sa mission et porter la tenue indiquée dans la catégorie de sa
+          Famille.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Panel 7 -->
+  <div class="panel panel-7">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Samouraï</font>
+          </div>
+          <div class="column" style="text-align: center;">HAUT GRADÉS</div>
+          <div class="column" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white;"><span
+              class="nnn">&#8594;
+              N°6</span></div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-7" data-win-text="Gooooooo!" data-win-img="https://media.giphy.com/media/l0Ex4mbaDhkeQT1jq/giphy.gif">
+
+        <div class="grade" data-target=".panel-7">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand_black.svg">
+              <img src="./img/cursor-hand_black.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+            <div class="g grade__game-target" name="animate" style="left: 79%; top: 50%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 9.svg"
+                alt=""></div>
+            <div class="h grade__game-target" name="animate" style="left: 27%; top: 32%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 10.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="panel__text">
+          C’est le grade du milieu de la
+          famille.
+        </p>
+        <p class="panel__text">
+          Il commence à montrer
+          sa loyauté à la Mafia et aux supérieurs.
+        </p>
+        <p class="panel__text">
+
+          Il a le droit de recruter.
+        </p>
+        <p class="panel__text">
+          Il a
+          le droit de déposer des certificats sans demander la permission.
+        </p>
+        <p class="panel__text">
+
+          Il vérifie que les certificats par lui apposés et ceux des autres
+          membres soient à leurs places.
+        </p>
+        <p class="panel__text">
+          Il est un membre actif et très présent pour sa famille.
+        </p>
+        <p class="panel__text">
+
+          Il peut supervisé les Shirouto. Il surveille leur travail, observe
+          leur loyauté et donne une opinion aux hauts gradés.
+        </p>
+        <p class="panel__text">
+
+          Il est sévère, et redouté des Kobun, Shatei.
+        </p>
+        <p class="panel__text">
+
+          Il peut rassembler des preuves sur des membres qui manquent de
+          loyauté.
+        </p>
+        <p class="panel__text">
+          Il en informe les
+          hauts gradés.
+        </p>
+        <p class="panel__text">
+          Il donne des
+          sanctions aux Kobun et Shatei sous l’odre d’un haut gradés.
+        </p>
+        <p class="panel__text">
+
+          Il conseille chaque membre pour faire mieux leurs travails et leur
+          rôle respectif.
+        </p>
+        <p class="panel__text">
+          Il est à
+          l’écoute des membres, les aides et contribu à leur initiative.
+        </p>
+
+        <p class="panel__text">
+          Il a le droit de recruter.
+        </p>
+        <p class="panel__text">
+          Il doit être strict dans le recrutement et repérer les bons Kobuns.
+        </p>
+        <p class="panel__text">
+          Il doit connaître les règles, l’Omerta et les grades par cœur.
+        </p>
+        <p class="panel__text">
+
+          Il doit reconnaître un boulet en regardant ce qu’il fait, par sa
+          mission. Pour les meurtres son arme est une hache.
+        </p>
+        <p class="panel__text">
+          Il devra mettre [Yakuza] Samouraï [F.(Initiale de sa Famille)] dans
+          sa mission et porter la tenue indiquée dans la catégorie de sa
+          Famille.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- panel-8 -->
+  </div>
+  <div class="panel panel-8">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Ken’Shou</font>
+          </div>
+          <div class="column" style="text-align: center;">HAUT GRADÉS</div>
+          <div class="column" id="niveau" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white;"><span
+              class="nnn">&#8594;
+              N°7</span></div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-8" data-win-text="Goooooooo!" data-win-img="https://media.giphy.com/media/dw53KXpmG8Xny/giphy.gif">
+
+        <div class="grade" data-target=".panel-8">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand_black.svg">
+              <img src="./img/cursor-hand_black.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+            <div class="g grade__game-target" name="animate" style="left: 79%; top: 50%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 9.svg"
+                alt=""></div>
+            <div class="h grade__game-target" name="animate" style="left: 27%; top: 32%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 10.svg"
+                alt=""></div>
+            <div class="i grade__game-target" name="animate" style="left: 85%; top: 70%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 11.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="panel__text">
+          On peut lui faire confiance.
+
+        </p>
+        <p class="panel__text">
+          Parfois il a des codes d’aparts
+          de la MY.
+        </p>
+        <p class="panel__text">
+          Il supervise les bas
+          gradés, surveille leur travail, observe leur loyauté envers la mafia
+          et ces supérieurs.
+        </p>
+        <p class="panel__text">
+          Il est
+          sévère, et commence à être redouté des bas gradés.
+        </p>
+        <p class="panel__text">
+          Il informe les Souke et Oyabun des alliances.
+        </p>
+        <p class="panel__text">
+          Il peut apposer les certificats sans demander et il doit les
+          surveiller et aussi ceux des autres de la MY.
+        </p>
+        <p class="panel__text">
+          Il peut rassembler des preuves sur les membres de sa Famille
+          qui
+          manquent de loyauté la mafia mais aussi lui.
+        </p>
+        <p class="panel__text">
+          Il en informe les hauts gradés.
+        </p>
+        <p class="panel__text">
+          Il conseille chaque membre dans leur grade et sur leur rôle
+          respectif
+          (Il doit les aider).
+        </p>
+        <p class="panel__text">
+          Il a le
+          droit de recruter tout en étant très strict et flairer les bon Kobuns.
+
+        </p>
+        <p class="panel__text">
+          Il doit connaître les règles,
+          l’Omerta et les grades par coeur et reconnaitre un boulet quand il en
+          aperçoit un.
+        </p>
+        <p class="panel__text">
+          Pour les meurtres
+          son arme est une Lame Forgée.
+        </p>
+        <p class="panel__text">
+          Il devra mettre [Yakuza] Ken’Shou [F.(initiale de sa
+          Famille)]
+          dans sa mission et porter la tenue indiquée dans la catégorie de sa
+          Famille.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Panel_9 -->
+  <div class="panel panel-9">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Dan’Shaku</font>
+          </div>
+          <div class="column" style="text-align: center;">HAUT GRADÉS</div>
+          <div class="column" style="background:red; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white;"><span
+              class="nnn">&#8594;
+              N°8</span></div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-9" data-win-text="Gooooooooo!" data-win-img="https://media.giphy.com/media/axyyCGQHEQDAI/giphy.gif">
+        <div class="grade" data-target=".panel-9">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand_black.svg">
+              <img src="./img/cursor-hand_black.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+            <div class="g grade__game-target" name="animate" style="left: 79%; top: 50%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 9.svg"
+                alt=""></div>
+            <div class="h grade__game-target" name="animate" style="left: 27%; top: 32%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 10.svg"
+                alt=""></div>
+            <div class="i grade__game-target" name="animate" style="left: 85%; top: 70%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 11.svg"
+                alt=""></div>
+            <div class="j grade__game-target" name="animate" style="left: 18%; top: 19%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 12.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <!-- textes -->
+      <div>
+        <p class="panel__text">
+          Il montre toujours plus sa loyauté
+          pour la Mafia.
+        </p>
+        <p class="panel__text">
+          Il supervise les
+          bas gradés et les moyens gradés, surveille leur travail, observe leur
+          loyauté.
+        </p>
+        <p class="panel__text">
+          Il est très sévère, et
+          redouté des bas gradés et un peu des moyens gradés.
+        </p>
+        <p class="panel__text">
+          Il peut rassembler des preuves sur les membres de sa Famille qui
+          manquent de loyauté envers la Mafia, la famille et même envers lui.
+        </p>
+        <p class="panel__text">
+          Il en informe les hauts gradés.
+        </p>
+        <p class="panel__text">
+          Il peut donner les sanctions aux bas gradés sous un ordre d’un Souke
+          ou Oyabun.
+        </p>
+        <p class="panel__text">
+          Il a le droit de
+          recruter tout en étant très strict et flairer les bons Kobuns. Il doit
+          connaître les règles, l’Omerta et les grades sur les bouts des doigts.
+          Pour les meurtre son arme est le Yari.
+        </p>
+        <p class="panel__text">
+          Il devra mettreDan’Shaku [F.(initiale de sa Famille)]
+          dans sa mission et porter la tenue indiquée dans al catégorie de sa
+          Famille.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- panel-10 -->
+  <div class="panel panel-10">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Saiko-Komon</font>
+          </div>
+          <div class="column" style="text-align: center;">GRAND CONSEIL</div>
+          <div class="column" style="background:black; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white;"><span
+              class="nnn">&#8594;
+              N°9</span></div>
+        </div>
+      </div>
+
+
+      <div class="grade" data-target=".panel-10" data-win-text="Goooooooooo!" data-win-img="https://media.giphy.com/media/AirlZTr7wQJr2/giphy.gif">
+        <div class="grade" data-target=".panel-10">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand_black_GC.svg">
+              <img src="./img/cursor-hand_black_GC.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+            <div class="g grade__game-target" name="animate" style="left: 79%; top: 50%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 9.svg"
+                alt=""></div>
+            <div class="h grade__game-target" name="animate" style="left: 27%; top: 32%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 10.svg"
+                alt=""></div>
+            <div class="i grade__game-target" name="animate" style="left: 85%; top: 70%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 11.svg"
+                alt=""></div>
+            <div class="j grade__game-target" name="animate" style="left: 18%; top: 19%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 12.svg"
+                alt=""></div>
+            <div class="k grade__game-target" name="animate" style="left: 60%; top: 57%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 13.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="panel__text">
+          C'est le second de sa Famille.
+        </p>
+        <p class="panel__text">
+          Il agit sur le terrain, prend des décisions importantes avec les
+          Soukes et les Oyabuns.
+        </p>
+        <p class="panel__text">
+          Il doit
+          être respecter, tout manque de respect de la part d'un des membres
+          pourra être sanctionné.
+        </p>
+        <p class="panel__text">
+          Il est membre du grand conseil.
+        </p>
+        <p class="panel__text">
+          Il peut ordonner les blocages.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Panel_11 -->
+  <div class="panel panel-11">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Souke</font>
+          </div>
+          <div class="column" style="text-align: center;">GRAND CONSEIL</div>
+          <div class="column" style="background:black; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white;"><span
+              class="nnn">&#8594;
+              N°10</span></div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-11" data-win-text="Gooooooooooo!" data-win-img="https://media.giphy.com/media/xTiTnw6Yg5nzWwQh5C/giphy.gif">
+        <div class="grade" data-target=".panel-11">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand_black_GC.svg">
+              <img src="./img/cursor-hand_black_GC.svg"></div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+            <div class="g grade__game-target" name="animate" style="left: 79%; top: 50%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 9.svg"
+                alt=""></div>
+            <div class="h grade__game-target" name="animate" style="left: 27%; top: 32%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 10.svg"
+                alt=""></div>
+            <div class="i grade__game-target" name="animate" style="left: 85%; top: 70%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 11.svg"
+                alt=""></div>
+            <div class="j grade__game-target" name="animate" style="left: 18%; top: 19%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 12.svg"
+                alt=""></div>
+            <div class="k grade__game-target" name="animate" style="left: 60%; top: 57%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 13.svg"
+                alt=""></div>
+            <div class="l grade__game-target" name="animate" style="left: 83%; top: 17%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 14.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+        <p class="panel__text">
+          Le Souke aimé ou détesté, craint et
+          respecté.
+        </p>
+        <p class="panel__text">
+          N'oubliez pas de le
+          vouvoyer et lui dire bonjour.
+        </p>
+        <p class="panel__text">
+          Tout manque de politesse sera sanctionné.
+        </p>
+        <p class="panel__text">
+          De préférence on l'appelle "Souke".
+        </p>
+        <p class="panel__text">
+          Il est membre du grand conseil.
+        </p>
+        <p class="panel__text">
+          Il ne fait pas de meurtre sinon il devrait se salir les mains.
+        </p>
+        <p class="panel__text">
+          Il devra mettreSouke [F.(initiale de sa Famille)]
+          dans
+          sa mission et porter : haut japonais noir manches longues, pantalon
+          noir et chaussures noires.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-12">
+    <div class="panel-content">
+      <div class="titre-niveau">
+        <div class="row niveaux">
+          <div class="column" style="text-align: center;">
+            <font color="red">Oyabun</font>
+          </div>
+          <div class="column" style="text-align: center;">GRAND CONSEIL</div>
+          <div class="column" style="background:black; border-left:2px solid white; border-top:2px solid white;border-bottom:2px solid white;"><span
+              class="nnn"><a href="end.html">&#8594;
+                N°11</a> </span></div>
+        </div>
+      </div>
+
+      <div class="grade" data-target=".panel-12" data-win-text="TU ES LE BIG BOSSSSSSSSSSSS!!!!!!!" data-win-img="end.html">
+        <div class="grade" data-target=".panel-12">
+          <div class="grade__timeline" data-time="10">
+            <div class="grade__timeline-line"></div>
+            <div class="grade__timeline-knife"> <img src="img/knife.svg" alt="">
+            </div>
+          </div>
+          <div class="grade__game">
+            <div class="grade__game-circle" style="border:0px;">
+              <img src="./img/cursor-hand_black_GC.svg">
+              <img src="./img/cursor-hand_black_GC.svg">
+            </div>
+            <div class="a grade__game-target" name="animate" style="left: 90%; top: 40%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 2.svg"
+                alt=""></div>
+            <div class="a grade__game-target" name="animate" style="left: 12%; top: 80%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 3.svg"
+                alt=""></div>
+            <div class="b grade__game-target" name="animate" style="left: 50%; top: 60%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 4.svg"
+                alt=""></div>
+            <div class="c grade__game-target" name="animate" style="left: 35%; top: 13%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 5.svg"
+                alt=""></div>
+            <div class="d grade__game-target" name="animate" style="left: 70%; top: 26%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 6.svg"
+                alt=""></div>
+            <div class="e grade__game-target" name="animate" style="left: 20%; top: 67%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 7.svg"
+                alt=""></div>
+            <div class="f grade__game-target" name="animate" style="left: 42%; top: 90%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 8.svg"
+                alt=""></div>
+            <div class="g grade__game-target" name="animate" style="left: 79%; top: 50%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 9.svg"
+                alt=""></div>
+            <div class="h grade__game-target" name="animate" style="left: 27%; top: 32%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 10.svg"
+                alt=""></div>
+            <div class="i grade__game-target" name="animate" style="left: 85%; top: 70%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 11.svg"
+                alt=""></div>
+            <div class="j grade__game-target" name="animate" style="left: 18%; top: 19%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 12.svg"
+                alt=""></div>
+            <div class="k grade__game-target" name="animate" style="left: 60%; top: 57%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 13.svg"
+                alt=""></div>
+            <div class="l grade__game-target" name="animate" style="left: 83%; top: 17%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 14.svg"
+                alt=""></div>
+            <div class="m grade__game-target" name="animate" style="left: 83%; top: 17%"><img src="img/yakuza_tattoos_game/SVG/y_Plan de travail 15.svg"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="panel__text">
+          Le Grand Patron, l’Oyabun aimé ou
+          détesté, craint et respecté.
+        </p>
+        <p class="panel__text">
+          N'oubliez pas de le vouvoyer et lui dire bonjour!
+        </p>
+        <p class="panel__text">
+          Tout manque de politesse sera sanctionné.
+        </p>
+        <p class="panel__text">
+          De préférence on l'appelle "Oyabun".
+        </p>
+        <p class="panel__text">
+          Il est membre du grand conseil.
+        </p>
+        <p class="panel__text">
+          Il ne fait pas de meurtre sinon il devra se salir les mains.
+        </p>
+        <p class="panel__text">
+          Il devra mettre Oyabundans sa mission et
+          porter : haut japonais noir manches longues, pantalon noirs et
+          chaussures noires.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/grade.js"></script>
+  <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>

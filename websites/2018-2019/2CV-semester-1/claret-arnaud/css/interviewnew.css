@@ -1,0 +1,314 @@
+
+
+/*.menuiconsandwish{
+position: fixed;
+margin-left: 87vw;
+z-index: 10;
+}*/
+
+/* MENU*/
+
+
+
+
+
+
+body {
+  width: 100%;
+  font-size: 0em;
+background-color: black}
+
+.colorwhiteselect{
+  color: blue;
+  transition: all 1s ease;
+  opacity: 0.15;
+}
+
+.colorwhiteselect:hover{
+  /*color: blue;*/
+}
+
+.colorblackselect{
+  color: black;
+  transition: all 1s ease;
+  opacity: 0.15;
+}
+
+.colorblackselect:hover{
+  /*color: black;*/
+}
+
+.colorblack{color: black;
+  transition: all 1s ease;
+  opacity: 0.5;
+}
+.colorblack:hover{color: black;
+  opacity: 1;}
+
+.colorwhite{color: blue;
+  transition: all 1s ease;
+  opacity: 0.5;
+
+}
+.colorwhite:hover{color: blue;
+  opacity: 1;}
+
+
+.rectangletext{
+  color: black;
+  padding-left:2vw;
+  padding-right: 2vw;
+}
+
+.rectangletexttwo{
+  color: blue;
+  padding-left:2vw;
+  padding-right: 2vw;
+}
+
+.rectangleinterview1{
+  float: left;
+  width: 25vw;
+  height: 100vh;
+  background-color: blue;
+  display: inline-block;
+  overflow-y: scroll;
+  color:black;
+}
+  
+.rectangleinterview2{
+  float: left;
+  width: 25vw;
+  height: 100vh;
+  background-color: black;
+  display: inline-block;
+  overflow-y: scroll;
+  color:blue;
+}
+
+.rectangleinterview3{
+  float: left;
+  width: 25vw;
+  height: 100vh;
+  background-color: blue;
+  display: inline-block;
+  overflow-y: scroll;
+  color:black;
+}
+
+.rectangleinterview4{
+  width: 25vw;
+  height: 100vh;
+  background-color: black;
+  display: inline-block;
+  overflow-y: scroll;
+  color:blue;
+}
+.interviewespacementparagraphe{
+  padding-bottom: 25px;
+}
+
+.interviewespacementparagraphetop{
+  padding-top: 1.5%;
+}
+
+.rectangle1{
+  width: 25vw;
+  height: 100vw;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+}
+.rectangle2{
+  width: 25vw;
+  height: 100vw;
+  background-color: black;
+  display: inline-block;
+  margin-left: -1.5vw;
+  position: relative;
+}
+
+.rectangle3{
+  width: 25vw;
+  height: 100vw;
+  background-color: blue;
+  display: inline-block;
+  margin-left: -1.5vw;
+  position: relative;
+}
+
+.rectangle4{
+  width: 25vw;
+  height: 100vw;
+  background-color: black;
+  display: inline-block;
+  margin-left: -1.5vw;
+}
+
+.interviewtext1{
+  position: absolute;
+  width: 22.3vw;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.interviewtext2{
+  position: absolute;
+  width: 22.3vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 900px;
+}
+
+.interviewtext3{
+  position: absolute;
+  width: 22.3vw;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+.interviewtext4{
+  position: absolute;
+  width: 22.3vw;  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 900px;
+}
+
+#blackbackgoundtitle{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.titreinterview{
+  text-align: center;
+  padding-top: 33vh;
+
+}
+.interviewname{
+  text-align: center;
+}
+
+#blackbackgroundintroduction{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.interviewintroduction{  
+  padding-top: 30vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.textinterview{
+background-color: black;
+padding-left: 20vw;
+padding-right: 20vw;
+}
+
+.titreinterviewnom{
+  padding-top: 7%;
+}
+
+@media screen and (max-width: 1000px) {
+  
+.rectangleinterview1{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:15%;
+  padding-right: 15%;
+}
+  
+.rectangleinterview2{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:15%;
+  padding-right: 15%;
+
+}
+
+.rectangleinterview3{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:15%;
+  padding-right: 15%;
+}
+
+.rectangleinterview4{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:15%;
+  padding-right: 15%;
+}
+
+.titreinterviewnom{
+  padding-top: 2%;
+}
+.interviewnewglobale{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+}
+
+/*CLASSES POUR DISPARITION ANIMATIONS*/
+
+.scaleFluide {
+    transform: scale(0.0, 0.0); 
+    opacity: 0;
+    transition: 1s;
+    /*    opacity: 0;*/
+}
+.scaleFluideSix {
+/*    transform: scale(0.0, 0.0);*/
+    opacity: 0;
+    transition: 1s;
+    /*    opacity: 0;*/
+}
+
+@media screen and (max-width: 800px) {
+
+.rectangleinterview1{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:2%;
+  padding-right: 2%;
+}
+  
+.rectangleinterview2{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:2%;
+  padding-right:2%;
+
+}
+
+.rectangleinterview3{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:2%;
+  padding-right: 2%;
+}
+
+.rectangleinterview4{
+  float: none;
+  width: 100vw;
+  height: 100%;
+  padding-left:2%;
+  padding-right: 2%;
+}
+
+.titreinterviewnom{
+  padding-top: 2%;
+}
+
+
+}
