@@ -1,5 +1,10 @@
 @import "variables.scss";
 
+@font-face {
+  font-family: Rungli;
+  src: url(../../fonts/Rungli/Rungli-Regular.woff);
+}
+
 html {
   font-size: 16px;
 }
@@ -7,7 +12,7 @@ html {
 body {
   overflow-x: hidden;
   background: $green;
-  font-family: sans-serif;
+  font-family: Rungli;
 }
 
 .lock-scroll {

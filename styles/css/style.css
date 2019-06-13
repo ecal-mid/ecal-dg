@@ -21,13 +21,16 @@ p, a, ul, li {
 iframe {
   border: none; }
 
+@font-face {
+  font-family: Rungli;
+  src: url(../../fonts/Rungli/Rungli-Regular.woff); }
 html {
   font-size: 16px; }
 
 body {
   overflow-x: hidden;
   background: #64c864;
-  font-family: sans-serif; }
+  font-family: Rungli; }
 
 .lock-scroll {
   overflow: hidden; }
