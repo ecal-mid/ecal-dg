@@ -1,0 +1,101 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<!-- TITRE DU SITE -->
+	<title>ROLLER DERBY</title>
+
+	<!-- NORMALIZE CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	
+	<!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+	
+	<!-- JQUERY -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	
+  <!-- FAVICON-->
+  <link rel="icon" type="image/png" href="images/favicon-96x96.png">
+    
+</head>
+
+<body>
+
+<!--- MENU --->  
+
+<div class="header"></div>
+<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+<label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+</label>
+<div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+        <li><a href="regles.html">RÈGLES</a></li>
+        <li><a href="histoire.html">HISTOIRE</a></li>
+        <li><a href="films.html">FILMS</a></li>
+        <li><a href="index.html">ACCUEIL</a></li>
+    </ul>
+</div>
+    
+<!--- FILMS --->  
+
+
+<section id="B">
+    <p class="textMediumFilms"><span class="bigWord specialLarger" data-target="#foo">WHIP IT:</span> <img src="images/whipit2.jpg" alt="image" height="55em" style="argin:0px 15px; vertical-align: middle;"> À Bodeen, au Texas, une adolescente <img src="images/whipit3.jpg" alt="image" height="55em" style="margin:0px 15px; vertical-align: middle;">épris de rock indépendant trouve un moyen de faire face à la misère de sa petite ville après avoir découvert une ligue de roller derby à Austin.<span class="bigWord specialLarger" data-target="#foo4">KANSAS BOMBER:</span> <img src="images/kansasbomber2.jpg" alt="image" height="55em" style="argin:0px 15px; vertical-align: middle;"> La patineuse de roller-derby, K. C. Carr, tente d'équilibrer son désir de vie personnelle heureuse et ses rêves de célébrité.<span class="bigWord specialLarger" data-target="#foo2">MONSTER HIGH: </span><img src="images/monsterhigh.jpg" alt="image" height="55em" style="margin:0px 15px; vertical-align: middle;">  Quand les garçons ne peuvent pas participer aux Championnats Skulltimate Roller Maze, <img src="images/monsterhigh2.jpg" alt="image" height="55em" style="margin:0px 15px; vertical-align: middle;"> Frankie Stein convainc ses amis qu'il faut un peu de puissance pour pouvoir gagner la journée dans ce tout nouveau film. <span class="bigWord specialLarger" data-target="#foo5">MURDOCH:</span> <img src="images/murdoch.jpg" alt="image" height="55em" style="margin:0px 15px; vertical-align: middle;"> Julia - comme de plus en plus de femmes - se déplace à patins à roulettes. <img src="images/murdoch2.jpg" alt="image" height="55em" style="margin:0px 15px; vertical-align: middle;"> Murdoch voit cela d'un mauvais œil. D'autant qu'un matin, une jeune femme <img src="images/murdoch3.jpg" alt="image" height="55em" style="margin:0px 15px; vertical-align: middle;">est retrouvée morte, avec ses patins aux pieds. Tout porte à croire qu'il s'agissait en fait d'un accident. <span class="bigWord specialLarger" data-target="#foo6">LES BATTANTES:</span><img src="images/whipit2.jpg" alt="image" height="55em" style="argin:0px 15px; vertical-align: middle;">
+    Elles s’appellent Pépé Le Punch, Kosmic Bruise, Lizzie Rider, Foïs Septik, Karla Karschër… Au total, 40 joueuses de toute la France ont été présélectionnées à Clermont-Ferrand pour constituer la première équipe nationale de Roller Derby qui disputera la coupe du monde à Dallas.
+    </p> 
+</section>
+
+<!-- ANIMATIONS -->
+
+ <div id="foo" class="pannel">
+     <video width="900" controls poster="images/whipit.jpg">
+      <source src="videos/whipit.mp4" type="video/mp4">
+    </video>
+ </div>
+
+ <div id="foo2" class="pannel">
+     <video width="900" controls poster="images/monster.jpg">
+      <source src="videos/monsterhigh.mp4" type="video/mp4">
+    </video>
+ </div>
+
+ <div id="foo4" class="pannel">
+     <video width="900" controls poster="images/kansasbomber.jpg">
+      <source src="videos/kansascitybomber.mp4" type="video/mp4">
+    </video>
+ </div>
+
+  <div id="foo5" class="pannel">
+     <video width="900" controls poster="images/murdoch4.jpg">
+      <source src="videos/murdoch.mp4" type="video/mp4">
+    </video>
+ </div>
+
+   <div id="foo6" class="pannel">
+     <video width="900" controls poster="images/battantes.jpg">
+      <source src="videos/parcourscombattantes.mp4" type="video/mp4">
+    </video>
+ </div>
+
+  <!-- SCRIPT POUR ANIMATION -->
+
+  <script>
+    $('body').on('click touchstart', function(){
+      $('.pannel').removeClass('pannel--show');
+    })
+
+    var bigWords = $('.bigWord');
+    bigWords.click(function () {
+      var target = $(this).data('target');
+
+      requestAnimationFrame(function () {
+        $(target).toggleClass('pannel--show');
+      })
+    })
+  </script>
+	
+</body>
+</html>
