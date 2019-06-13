@@ -1,5 +1,9 @@
 @import "variables.scss";
 
+html {
+  font-size: 16px;
+}
+
 body {
   overflow-x: hidden;
   background: $green;
@@ -179,5 +183,17 @@ body {
   } 100% {
     transform: translate(-50%, -50%) scale(1.0);
     opacity: 0;
+  }
+}
+
+@media screen and(max-width: 1080px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and(max-width: 600px) {
+  html {
+    font-size: 7px;
   }
 }
