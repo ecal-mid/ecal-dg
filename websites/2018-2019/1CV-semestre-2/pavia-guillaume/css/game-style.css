@@ -1,0 +1,298 @@
+html, body {
+  cursor: none;
+  height: 100%;
+  margin: 0;
+  background-color: lightgrey;
+}
+
+video {
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.kart-cursor {
+  pointer-events: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  width: 50px;
+  height: 50px;
+  background-image: url(..//images/image_10.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.game-block {
+  width:3000%;
+  height:100%;
+}
+
+.obstacles {
+  position: absolute;
+  width: 3000%;
+  top: 20%;
+  bottom: 20%;
+}
+
+.obs-1 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 10%;
+  top: 20%;
+  background-color: blue;
+}
+
+.obs-2 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 30%;
+  bottom: 0%;
+  background-color: yellow;
+}
+
+.obs-3 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 40%;
+  top: 30%;
+  background-color: blue;
+}
+
+.obs-4 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 50%;
+  bottom: 20%;
+  background-color: yellow;
+}
+
+.obs-5 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 55%;
+  top: 0%;
+  background-color: blue;
+}
+
+.obs-6 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 65%;
+  top: 25%;
+  background-color: yellow;
+}
+
+.obs-7 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 70%;
+  bottom: 0%;
+  background-color: blue;
+}
+
+.obs-8 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 75%;
+  top: 40%;
+  background-color: yellow;
+}
+
+.obs-9 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 80%;
+  top: 10%;
+  background-color: blue;
+}
+
+.obs-10 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 85%;
+  bottom: 0%;
+  background-color: yellow;
+}
+
+.obs-11 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 90%;
+  bottom: 20%;
+  background-color: blue;
+}
+
+.obs-12 {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 92%;
+  top: 15%;
+  background-color: yellow;
+}
+
+.flex-game-top {
+  width: 3000%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.flex-game-bottom {
+  width: 3000%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.blue-box {
+  width: 20%;
+  background-color: blue;
+}
+
+.yellow-box {
+  width: 20%;
+  background-color: yellow;
+}
+
+
+
+.start {
+  position: fixed;
+  z-index: 100;
+  font-family: 'Sporting Grotesque_Bold';
+  font-size: 100px;
+  color: rgb(0,0,255);
+  -webkit-animation: flash linear 1s infinite;
+  animation: flash linear 1s infinite;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.loose {
+  position: fixed;
+  z-index: 1000000;
+  font-family: 'Sporting Grotesque_Bold';
+  font-size: 100px;
+  text-align: center;
+  color: blue;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.finish {
+  width: 10%;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: absolute;
+  left: 2950%;
+  top: 0;
+}
+
+.won {
+  position: fixed;
+  z-index: 1000000;
+  font-family: 'Sporting Grotesque_Bold';
+  font-size: 100px;
+  text-align: center;
+  color: blue;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+.black-box {
+  height: 100%;
+  background-color: black;
+}
+
+.white-box {
+  height: 100%;
+  background-color: white;
+}
+
+
+
+
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .start {
+    font-size: 60px;
+  }
+.won {
+  font-size: 60px;
+}
+
+.loose {
+  font-size: 60px;
+}
+
+}
+@media only screen and (max-width: 600px) {
+
+  .start {
+    font-size: 40px;
+  }
+
+  .won {
+    font-size: 40px;
+  }
+
+  .loose {
+    font-size: 40px;
+  }
+
+}

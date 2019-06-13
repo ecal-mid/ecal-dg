@@ -1,0 +1,55 @@
+/*FONTS*/
+
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('../fonts/Regular/Sporting_Grotesque-Regular_web.eot');
+    src:    url('../fonts/Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
+            url('../fonts/Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
+            url('../fonts/Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
+            url('../fonts/Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('../fonts/Bold/Sporting_Grotesque-Bold_web.eot');
+    src:    url('../fonts/Bold/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Bold/Sporting_Grotesque-Bold_web.woff') format('woff'),
+            url('../fonts/Bold/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+            url('../fonts/Bold/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
+            url('../fonts/Bold/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'happy_times_at_the_ikobitalic';
+    src: url('../fonts/Happy/happy-times-at-the-ikob_italic-webfont.woff2') format('woff2'),
+         url('../fonts/Happy/happy-times-at-the-ikob_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'happy_times_at_the_ikobRg';
+    src: url('../fonts/Happy/happy-times-at-the-ikob-webfont.woff2') format('woff2'),
+         url('../fonts/Happy/happy-times-at-the-ikob-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'VG5000';
+    src:    url('../fonts/VG5000-Regular_web.eot');
+    src:    url('../fonts/VG5000-Regular_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/VG5000-Regular_web.woff') format('woff'),
+            url('../fonts/VG5000-Regular_web.woff2') format('woff2'),
+            url('../fonts/VG5000-Regular_web.ttf') format('truetype'),
+            url('../fonts/VG5000-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

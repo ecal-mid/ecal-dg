@@ -167,6 +167,10 @@ body {
 
   border-radius: 100%;  
   animation: sk-scaleout 1.0s infinite ease-in-out;
+
+  .project--loaded & {
+    display: none;
+  }
 }
 
 @keyframes sk-scaleout {

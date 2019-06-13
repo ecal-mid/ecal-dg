@@ -1,0 +1,1327 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.muyb {
+	background-image: url(image/muybridge-black-2.png);
+	background-color: black;
+	background-repeat: ;
+	background-size: 65.5%;
+	width: 1555px;
+	height: 0px;
+	border: 0px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
+div #muybridge {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+
+
+ul #navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+
+	z-index: 300;
+
+}
+
+li {
+  float: left;
+  color: #666;
+	font-family: "Bodoni 72 Oldstyle";
+
+
+
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+
+
+}
+
+li a.active {
+  color: red;
+  background-color: #4CAF50;
+
+}
+
+#tophistory {
+margin-top: 0px;
+
+}
+
+body {
+  background: white;
+  font-family: helvetica;
+  font-size: 40px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+	font-family: serif;
+	font-size: 100px;
+  color: white;
+  top: 0;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+div.sticky2 {
+  position: -webkit-sticky;
+  position: sticky;
+  color: red;
+  top: 0;
+  padding: 5px;
+  background-color: none;
+  border: 5px solid none;
+	font-size: 10vw;
+	font-family: serif;
+}
+
+div.padus {
+  position: -webkit-sticky;
+  position: static;
+  color: black;
+  top: 0;
+	margin-top: 0px;
+  padding: 5px;
+	padding-left: 700px;
+	margin-left: 200px;
+	padding-right: 50px;
+	font-size: 2vw;
+	line-height: 34px;
+	font-family: helvetica;
+	text-shadow: 0 0 0px #000;
+}
+
+div.padus02 {
+  position: -webkit-sticky;
+  position: static;
+  color: black;
+  top: 0;
+	margin-top: 1000px;
+  padding: 5px;
+	padding-left: 700px;
+	margin-left: 200px;
+	padding-right: 50px;
+	font-size: 25px;
+	line-height: 28px;
+	font-family: helvetica;
+  text-shadow: 0 0 1px #000;
+
+}
+
+div.padus03 {
+  position: -webkit-sticky;
+  position: static;
+  color: black;
+  top: 0;
+	margin-top: 0px;
+  padding: 5px;
+	padding-left: 50px;
+	margin-left: 200px;
+	padding-right: 700px;
+	font-size: 25px;
+	line-height: 28px;
+	font-family: helvetica;
+  text-shadow: 0 0 1px #000;
+
+}
+
+div.padus04 {
+  position: -webkit-sticky;
+  position: static;
+  color: black;
+  top: 0;
+	margin-top: 0px;
+  padding: 5px;
+	padding-left: 700px;
+	margin-left: 200px;
+	padding-right: 50px;
+	font-size: 25px;
+	line-height: 28px;
+	font-family: helvetica;
+  text-shadow: 0 0 1px #000;
+
+}
+
+
+@media screen and (max-width: 1350px) {
+
+	div.padus02 {
+		padding-left: 400px;
+
+	}
+
+
+	div.padus03 {
+		padding-right: 400px;
+
+	}
+
+	div.padus04 {
+		padding-left: 400px;
+
+	}
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+	div.padus02 {
+		padding-left: 000px;
+
+	}
+
+
+	div.padus03 {
+		padding-right: 000px;
+
+	}
+
+	div.padus04 {
+		padding-left: 000px;
+
+	}
+
+
+}
+
+
+h1 {
+  color: #444;
+  font-family: helvetica;
+  letter-spacing: 50px;
+  font-size: 20vw;
+  line-height: 300px;
+}
+
+h2 {
+  color: grey;
+  text-align: center;
+  font-family: "Bodoni 72 Oldstyle";
+	font-style: italic;
+  font-size: 10vw;
+	text-shadow: 0 0 0px grey;
+	padding-bottom: 0px;
+}
+
+h22 {
+  color: white;
+  text-align: center;
+  font-family: "Bodoni 72 Oldstyle";
+	font-style: italic;
+  font-size: 10vw;
+
+  text-shadow: 0 0 0px grey;
+	padding-bottom: 30px;
+}
+
+h222 {
+  color: black;
+  text-align: center;
+  font-family: "Bodoni 72 Oldstyle";
+	font-style: italic;
+  font-size: 10vw;
+  line-height: 100px;
+  text-shadow: 0 0 0px grey;
+
+}
+
+h3 {
+
+  font-size: 30px;
+
+}
+
+h4 {
+  color: grey;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 2vw;
+  line-height: 30px;
+	text-shadow: 0 0 0px grey;
+}
+
+.titres1 {
+  color: white;
+  text-align: center;
+  font-family: "Bodoni 72 Oldstyle";
+	font-style: italic;
+  font-size: 10vw;
+	padding-right:.25em;
+  line-height: 160px;
+
+}
+
+.titres2 {
+  color: white;
+  text-align: center;
+  font-family: "Bodoni 72 Oldstyle";
+	font-style: italic;
+  font-size: 12vw;
+  line-height: 10vw;
+	text-shadow: 0 0 0px white;
+	padding-bottom: 20px;
+	padding-right:.25em;
+}
+
+.titres3 {
+  color: black;
+  text-align: center;
+  font-family: "Bodoni 72 Oldstyle";
+	font-style: italic;
+  font-size: 12vw;
+  line-height: 10vw;
+	text-shadow: 0 0 0px black;
+	padding-bottom: 20px;
+	padding-right:.25em;
+}
+
+.titres4 {
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 10vw;
+  line-height: 160px;
+	text-shadow: 0 0 0px white;
+}
+
+.titres5 {
+  color: black;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 12vw;
+  line-height: 10vw
+	text-shadow: 0 0 0px black;
+	margin-bottom: -6em;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #999;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 350px;
+  font-family: helvetica;
+  position: absolute;
+  top: 23%;
+  left: 63%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.padding{
+	padding-left: 50%;
+	font-size: 35px;
+	font-family: helvetica;
+	letter-spacing: 4px;
+}
+
+.paddingdeux{
+	padding-right: 50%;
+}
+
+.schema {
+	size: 800px;
+	margin-top: 0px;
+}
+
+
+/* #mySidenav a {
+  position: absolute;
+  left: -1600px;
+  transition: 0.4s;
+  padding: 15px;
+	margin-top: 0px;
+  width: 1650px;
+	height: 250px;
+  text-decoration: none;
+  font-size: 0px;
+	font-family: serif;
+	text-align: center;
+  color: red;
+  border-radius: 0 5px 5px 0;
+} */
+.sidenav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3000;
+
+}
+.sidenav div {
+	width: 80px;
+	height: 280px;
+	transition: width .4s ease-in-out;
+	background-repeat: repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-color: #000000;
+
+}
+.sidenav div:hover{
+	width: 100vw;
+}
+
+.Home {
+	background-image: url(image/nav-home3-08.png);
+}
+.History {
+	background-image: url(image/nav-history3-09.png);
+}
+.Rules {
+	background-image: url(image/nav-rules3-10.png);
+}
+.Equipment {
+	background-image: url(image/nav-equipment.png);
+}
+
+
+
+
+
+
+
+
+#mySidenav a:hover {
+  left: 0;
+
+}
+
+#Home {
+  top: 0px;
+	background-color: #000000;
+	background-image: url(image/muybridge-test-texte-home.png);
+
+	background-repeat: ;
+	background-size: 66%;
+	width: 1642px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 0px;
+	margin: 10px;
+}
+
+#History {
+  top: 300px;
+	background-color: #000000;
+	background-image: url(image/muybridge-test-copie-2.png);
+	background-repeat: ;
+	background-size: 66%;
+	width: 1555px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 50px;
+	margin: 10px;
+}
+
+#Rules {
+  top: 580px;
+  background-color: #000000;
+	background-image: url(image/muybridge-test-copie-2.png);
+	background-repeat: ;
+	background-size: 66%;
+	width: 1555px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 50px;
+	margin: 10px;
+}
+
+#mySidenav2 a {
+  position: absolute;
+  left: -1600px;
+  transition: 0.4s;
+  padding: 15px;
+	margin-top: 840px;
+  width: 1650px;
+	height: 250px;
+  text-decoration: none;
+  font-size: 0px;
+	font-family: serif;
+	text-align: center;
+  color: red;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav2 a:hover {
+  left: 0;
+}
+
+#Home {
+  top: 0px;
+	background-color: #000000;
+	background-image: url(image/muybridge-test-texte-home.png);
+
+	background-repeat: ;
+	background-size: 65%;
+	width: 1642px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 0px;
+	margin: 10px;
+}
+
+#History {
+  top: 280px;
+	background-color: #000000;
+	background-image: url(image/muybridge-test-texte-history.png);
+	background-repeat: ;
+	background-size: 65%;
+	width: 1555px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 50px;
+	margin: 10px;
+}
+
+#Rules {
+  top: 560px;
+  background-color: #000000;
+	background-image: url(image/muybridge-test-texte-rules.png);
+	background-repeat: ;
+	background-size: 65%;
+	width: 1555px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 50px;
+	margin: 10px;
+}
+
+
+
+#mySidenav3 a {
+  position: absolute;
+  left: -1600px;
+  transition: 0.4s;
+  padding: 15px;
+	margin-top: 1680px;
+  width: 1650px;
+	height: 250px;
+  text-decoration: none;
+  font-size: 0px;
+	font-family: serif;
+	text-align: center;
+  color: red;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav3 a:hover {
+  left: 0;
+}
+
+#Home {
+  top: 0px;
+	background-color: #000000;
+	background-image: url(image/nav-home2.png);
+	background-position: ;
+	background-repeat: ;
+	background-size: 100%;
+	width: 1642px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+#History {
+  top: 280px;
+	background-color: #000000;
+	background-image: url(image/nav-history2.png);
+	background-repeat: ;
+	background-size: 100%;
+	width: 1555px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 50px;
+	margin: 0px;
+}
+
+#Rules {
+  top: 560px;
+  background-color: #000000;
+	background-image: url(image/nav-rules2.png);
+	background-repeat: ;
+	background-size: 64.6%;
+	width: 1555px;
+	height: 327px;
+	border: 0px solid black;
+	padding: 50px;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tiny reset thingy */
+body,html{margin:0;padding:0;}
+
+.wrapper {
+  /* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+  height: 118.2vh;
+  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+  overflow-x: hidden;
+  /* Enable scrolling on the page. */
+  overflow-y: auto;
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  perspective: 2px;
+	margin-top: 0px;
+
+	z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section {
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 100vh;
+
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+	text-shadow: 0 0 0px #999;
+	padding-right: 50px;
+	padding-left: 120px;
+
+
+
+
+
+
+
+
+
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+
+/* The styling for the static div. */
+.static {
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,0) 100%);
+	color: black;
+	text-shadow: 0 0 0px #000;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-left: 120px;
+	padding-right: 60px;
+
+}
+
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.bg1::after {
+
+  background-image: url(image/Polo-Life-Charlie-Dailey-010.jpg);
+	background-size: 102%;
+	padding-right: 50px;
+	margin-top: -40px;
+
+
+
+
+}
+
+.bg2::after {
+  background-image: url(image/KGralla-Polo_Art_FPC_2014.jpg);
+	background-size: 120%;
+	height: 1300px;
+
+
+
+
+
+
+}
+
+.static2 {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	padding-left: 120px;
+	padding-right: 60px;
+	padding-top: 150px;
+	text-shadow: 0 0 0px white;
+}
+
+.bg3::after {
+  background-color: red;
+	background-image: url(image/KGralla-Polo_Art_FPC_2014.jpg);
+	background-size: 27%;
+  height: 300px;
+
+
+}
+
+.static3 {
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  text-shadow: 0 0 0px white;
+}
+
+.bg4::after {
+
+  background-color: white;
+	background-image: url(image/army-polo.jpg);
+	background-size: 50%;
+  height: 1000px;
+}
+
+.static4 {
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  text-shadow: 0 0 0px white;
+	padding-top: 0px;
+	padding-left: 120px;
+	padding-right: 100px;
+	height: 2000px;
+}
+
+.bglogo::after {
+
+  background: url(image/fondecran-trans.png);
+  background-size: 100%;
+	height: 5000px;
+	padding-right: 50px;
+	margin-top: 1000px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.container4 {
+  overflow: hidden;
+
+}
+
+.sliding-background {
+  background: url(image/Polo-Life-Charlie-Dailey-010.jpg) repeat-x;
+	background-size: 25%;
+	margin-top: 0px;
+	margin-left: 0px;
+  height: 280px;
+  width: 5076px;
+  animation: slide 70s linear infinite;
+}
+
+.sliding-background40 {
+  background: url(image/POLO-Website-13.jpg) repeat-x;
+	background-size: 50%;
+	margin-top: 0px;
+	margin-left: 0px;
+  height: 1120px;
+  width: 5076px;
+  animation: slide 4s linear infinite;
+}
+
+.sliding-background4 {
+  background: url(image/muy-final.png) repeat-x;
+	background-size: 21.4%;
+	background-color: black;
+	margin-top: 0px;
+  height: 280px;
+  width: 5076px;
+  animation: slide 20s linear infinite;
+}
+
+.sliding-background5 {
+  background: url(image/KGralla-Polo_Art_FPC_2014.jpg) repeat-x;
+	background-size: 10%;
+	margin-top: 0px;
+  height: 280px;
+  width: 5076px;
+  animation: slide 40s linear infinite;
+}
+
+.sliding-background6 {
+  background: url(image/muybridge-run-clean2.jpg) repeat-x;
+	background-size: 51%;
+	margin-top: 0px;
+  height: 140px;
+  width: 5076px;
+  animation: slide .2s linear infinite;
+}
+
+.sliding-background62 {
+  background: url(image/muybridge-run-clean2.jpg) repeat-x;
+	background-size: 51%;
+	margin-top: 0px;
+  height: 140px;
+  width: 5076px;
+  animation: slide .2s linear infinite;
+}
+
+.sliding-background7 {
+  background: url(image/muybridge-run-clean2.jpg) repeat-x;
+	background-size: 101.5%;
+	margin-top: 0px;
+  height: 280px;
+  width: 5076px;
+  animation: slide .09s linear infinite;
+}
+
+.sliding-background8 {
+  background: url(image/polo-sport-1.jpg) repeat-x;
+	background-size: 8%;
+	margin-top: 0px;
+  height: 280px;
+  width: 5076px;
+  animation: slide 10s linear infinite;
+}
+
+.sliding-background9 {
+  background: url(image/muybridge-run-clean3.jpg) repeat-x;
+	background-size: 20%;
+	margin-top: 0px;
+  height: 56px;
+  width: 5076px;
+  animation: slide .09s linear infinite;
+}
+
+.sliding-background10 {
+	background: url(image/muy-final.png) repeat-x;
+	background-size: 21.3%;
+	background-color: black;
+	margin-top: 0px;
+  height: 280px;
+  width: 5076px;
+  animation: slide 15s linear infinite;
+}
+
+.sliding-background11 {
+  background: url(image/horse-baus.jpg) repeat-x;
+	background-size: 11%;
+	margin-top: 0px;
+  height: 280px;
+  width: 5076px;
+  animation: slide 50s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+
+
+.content {
+	overflow-x: hidden;
+}
+.degrade {
+	pointer-events: none;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* border: 1px red solid; */
+	background-image: linear-gradient(90deg,rgba(0,0,0,1) 4%, rgba(255,255,255,0) 25%, rgba(255,255,255,0));
+	z-index: 200;
+}
+
+
+.degrade2 {
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* border: 1px red solid; */
+	background-image: linear-gradient(90deg,rgba(0,0,0,1) 4%, rgba(255,255,255,0) 100%, rgba(255,255,255,0));
+	z-index: 200;
+}
+
+
+
+
+
+.anim {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	z-index: 2000;
+}
+
+.icon {
+	transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+	transform: scale(2) rotate(45deg);
+}
+
+.icon:hover circle {
+	fill: ;
+}
+
+#icon-1 {
+	transform-origin: 50.21% 10.21%;
+}
+
+#icon-2 {
+	transform-origin: calc(1042.35 / 1190.55 * 100%) calc(346.62 / 841.89 * 100%);
+}
+
+#icon-3 {
+	transform-origin: calc(876.65 / 1190.55 * 100%) calc(222.75 / 841.89 * 100%);
+}
+
+#icon-4 {
+	transform-origin: calc(791.65 / 1190.55 * 100%) calc(508.73 / 841.89 * 100%);
+}
+
+#icon-5 {
+	transform-origin: calc(639.19 / 1190.55 * 100%) calc(522.59 / 841.89 * 100%);
+}
+
+#icon-6 {
+	transform-origin: calc(554.64 / 1190.55 * 100%) calc(340.1 / 841.89 * 100%);
+}
+
+#icon-7 {
+	transform-origin: calc(461.78 / 1190.55 * 100%) calc(178.4 / 841.89 * 100%);
+}
+
+#icon-8 {
+	transform-origin: calc(397.1 / 1190.55 * 100%) calc(355.35 / 841.89 * 100%);
+}
+
+#icon-9 {
+	transform-origin: calc(319 / 1190.55 * 100%) calc(219.43 / 841.89 * 100%);
+}
+
+#icon-10 {
+	transform-origin: calc(461.75 / 1190.55 * 100%) calc(503.81 / 841.89 * 100%);
+}
+
+#icon-11 {
+	transform-origin: calc(180.06 / 1190.55 * 100%) calc(346.62 / 841.89 * 100%);
+}
+
+#icon-12 {
+	transform-origin: calc(707.04 / 1190.55 * 100%) calc(348.72 / 841.89 * 100%);
+}
+
+#icon-13 {
+	transform-origin: calc(735.58 / 1190.55 * 100%) calc(175.95 / 841.89 * 100%);
+}
+
+
+
+
+
+
+
+#line-1 line {
+	transform-origin: calc(962.83 / 1190.55 * 100%) calc(583.89 / 841.89 * 100%);
+	transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+	stroke-width: 3;
+	transform: scaleX(0);
+}
+
+#line-1 text {
+	visibility: hidden;
+transition: visibility 0s ease-in-out;
+}
+
+#line-1:hover line {
+	transform: scaleX(1);
+}
+
+#line-1:hover text {
+	visibility: visible;
+	transition: visibility 0s ease-in-out .3s;
+}
+
+
+
+
+#line-2 line {
+	transform-origin: calc(963.78 / 1190.55 * 100%) calc(630.12 / 841.89 * 100%);
+	transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+	stroke-width: 3;
+	transform: scaleX(0);
+}
+
+#line-2 text {
+	visibility: hidden;
+transition: visibility 0s ease-in-out;
+}
+
+#line-2:hover line {
+	transform: scaleX(1);
+}
+
+#line-2:hover text {
+	visibility: visible;
+	transition: visibility 0s ease-in-out .4s;
+}
+
+
+
+#line-3 line {
+	transform-origin: calc(963.78 / 1190.55 * 100%) calc(630.12 / 841.89 * 100%);
+	transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+	stroke-width: 3;
+	transform: scaleX(0);
+}
+
+#line-3 text {
+	visibility: hidden;
+transition: visibility 0s ease-in-out;
+}
+
+#line-3:hover line {
+	transform: scaleX(1);
+}
+
+#line-3:hover text {
+	visibility: visible;
+	transition: visibility 0s ease-in-out .3s;
+}
+
+
+
+
+#line-4 line {
+	transform-origin: calc(963.78 / 1190.55 * 100%) calc(630.12 / 841.89 * 100%);
+	transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+	stroke-width: 3;
+	transform: scaleX(0);
+}
+
+#line-4 text {
+	/* display: none; */
+	visibility: hidden;
+  transition: visibility 0s ease-in-out;
+
+}
+
+#line-4:hover line {
+	transform: scaleX(1);
+}
+
+#line-4:hover text {
+	/* display: block; */
+	visibility: visible;
+	transition: visibility 0s ease-in-out .3s;
+}
+
+
+
+
+	#line-5 line {
+		transform-origin: calc(963.78 / 1190.55 * 100%) calc(630.12 / 841.89 * 100%);
+		transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+		stroke-width: 3;
+		transform: scaleX(0);
+	}
+
+	#line-5 text {
+		/* display: none; */
+		visibility: hidden;
+	  transition: visibility 0s ease-in-out;
+
+	}
+
+	#line-5:hover line {
+		transform: scaleX(1);
+	}
+
+	#line-5:hover text {
+		/* display: block; */
+		visibility: visible;
+		transition: visibility 0s ease-in-out .3s;
+}
+
+
+
+		#line-6 line {
+			transform-origin: calc(987.02 / 1190.55 * 100%) calc(562.35 / 841.89 * 100%);
+			transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+			stroke-width: 3;
+			transform: scaley(0);
+		}
+
+		#line-6 text {
+			/* display: none; */
+			visibility: hidden;
+			transition: visibility 0s ease-in-out;
+
+		}
+
+		#line-6:hover line {
+			transform: scaley(1);
+		}
+
+		#line-6:hover text {
+			/* display: block; */
+			visibility: visible;
+			transition: visibility 0s ease-in-out .3s;
+
+}
+
+
+#line-7 line {
+	transform-origin: calc(1000.53 / 1190.55 * 100%) calc(369.79 / 841.89 * 100%);
+	transition: transform 0.3s ease-in-out, stroke-dasharray 0.3s ease-in-out;
+	stroke-width: 3;
+	transform: scaley(0);
+}
+
+#line-7 text {
+	/* display: none; */
+	visibility: hidden;
+	transition: visibility 0s ease-in-out;
+
+}
+
+#line-7:hover line {
+	transform: scaley(1);
+}
+
+#line-7:hover text {
+	/* display: block; */
+	visibility: visible;
+	transition: visibility 0s ease-in-out .3s;
+
+}
+
+.sellepath-2 text {
+	display: none;
+	font-family: "Bodoni 72 Oldstyle";
+	font-style: italic;
+	font-size: 3vw;
+}
+
+
+.sellepath-2:hover path{
+  fill: #000000;
+}
+
+.sellepath-2:hover text {
+	display: block;
+}
+
+
+
+@media screen and (max-width: 1313px) {
+	.section {
+		flex-direction: column;
+
+	}
+
+	.titres1 {
+		line-height: 100px;
+	}
+
+	.titres2 {
+	}
+
+	.titres3 {
+		line-height: 100px;
+	}
+
+	.hoho {
+width: 300px;
+	}
+
+
+
+	h22 {
+		line-height: 10px;
+	}
+}

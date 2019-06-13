@@ -1,0 +1,798 @@
+html, body { width: 100%; height: 100%; margin: 0; padding: 0; }
+
+body {
+  background-color: rgb(0,0,255);
+}
+
+/*NAV*/
+
+.flex-parent {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  font-size: 3.5em;
+}
+
+.flex.red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 50%;
+  font-family: 'Sporting Grotesque_Bold';
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255,0,0);
+  color: rgb(0,255,0);
+}
+
+.flex.green {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 50%;
+  font-family: 'Sporting Grotesque_Bold';
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(0,255,0);
+  color: rgb(255,0,0);
+}
+
+.flex.red:hover {
+  color: rgb(0,0,255);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex.green:hover {
+  color: rgb(0,0,255);
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+}
+
+p {
+ margin: 0 auto;
+ font-family: 'Sporting Grotesque_Regular';
+ text-align: justify;
+ color: white;
+ font-size: 1.22em;
+ line-height: 1.4em;
+ letter-spacing: normal;
+ text-indent: 3em;
+ -webkit-hyphens: auto;
+ -moz-hyphens: auto;
+ -ms-hyphens: auto;
+ hyphens: auto;
+
+}
+
+p:first-of-type {
+   text-indent: 0;
+}
+
+p.no-indent {
+  margin-top: 2rem;
+  text-indent: 0;
+}
+
+p.no-indent.left {
+  text-align: left;
+  margin-top: 2rem;
+  text-indent: 0;
+}
+
+p.no-indent.left.fx {
+  color: rgb(0,255,0);
+  text-align: left;
+  text-shadow: -2px 2px 3px rgb(255,0,0);
+  margin-top: 2rem;
+  text-indent: 0;
+}
+
+ul  li {
+  font-family: 'Sporting Grotesque_Regular';
+  text-align: left;
+  list-style-position: outside;
+  color: white;
+  font-size: 1.22em;
+  line-height: 1.4em;
+  margin-top: 2rem;
+  padding-right: 6%;
+  letter-spacing: normal;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+li:before {
+  content: '•';
+}
+
+/*HISTORY TEXTS + IMAGES */
+
+.hidden-history-endurance {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.history-text-endurance {
+  width: 50%;
+  padding-right: 6%;
+}
+
+.hidden-history-sprint {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.history-text-sprint {
+  width: 50%;
+  padding-right: 6%;
+}
+
+.hidden-history-speedway {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.history-text-speedway {
+  width: 50%;
+  padding-right: 6%;
+}
+
+/*HISTORY IMAGES BLOCKS*/
+
+.block-images-history-endurance {
+  width: 50%;
+}
+
+.block-images-history-sprint {
+  width: 50%;
+}
+
+.block-images-history-speedway {
+  width: 50%;
+}
+
+.images-sections {
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+/*RULES TEXTS + IMAGES */
+
+.hidden-rules-endurance {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.rules-text-endurance {
+  width: 50%;
+  padding-right: 6%;
+}
+
+.hidden-rules-sprint {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.rules-text-sprint {
+  width: 50%;
+  padding-right: 6%;
+}
+
+.hidden-rules-speedway {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.rules-text-speedway {
+  width: 50%;
+  padding-right: 6%;
+}
+
+/*RULES IMAGES BLOCKS*/
+
+.block-images-rules-endurance {
+  width: 50%;
+}
+
+.block-images-rules-sprint {
+  width: 50%;
+}
+
+.block-images-rules-speedway {
+  width: 50%;
+}
+
+/*KART TEXTS + IMAGES */
+.hidden-karts-endurance {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.karts-text-endurance {
+  width: 50%;
+  padding-right: 6%;
+}
+
+.hidden-karts-sprint {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.karts-text-sprint {
+  width: 50%;
+  padding-right: 6%;
+}
+
+.hidden-karts-speedway {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3%;
+}
+
+.karts-text-speedway {
+  width: 50%;
+  padding-right: 6%;
+}
+
+/*KARTS IMAGES BLOCKS*/
+
+.block-images-karts-endurance {
+  width: 50%;
+}
+
+.block-images-karts-sprint {
+  width: 50%;
+}
+
+.block-images-karts-speedway {
+  width: 50%;
+  }
+
+
+/*FOOTER*/
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 5%;
+   background-color: black;
+   opacity: 0.8;
+   color: white;
+   text-align: center;
+   font-size: 1em;
+   font-family: 'Helvetica';
+   font-weight: bold;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.speeds {
+flex: 1 1 auto;
+padding: 10px;
+}
+
+.speeds:hover {
+  font-style: italic;
+}
+
+/*MEDIA QUERIES
+
+
+/*max900px*/
+
+@media only screen and (max-width: 900px) {
+  p {
+    font-size: 1.1rem;
+    text-indent: 1.5rem;
+  }
+
+  p:first-of-type {
+     text-indent: 0;
+  }
+
+  ul li {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  .flex-parent {
+    font-size: 2.5rem;
+  }
+
+  .images-sections {
+    padding-top:3%;
+  }
+
+/*HISTORY 900px*/
+
+ul li {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+  .hidden-history-endurance {
+    flex-direction:column;
+  }
+  .hidden-history-sprint {
+    flex-direction:column;
+  }
+
+  .hidden-history-speedway {
+    flex-direction:column;
+  }
+
+  .history-text-endurance {
+    width: 100%;
+  }
+
+  .history-text-sprint {
+    width: 100%;
+  }
+
+  .history-text-speedway {
+    width: 100%;
+  }
+
+  .block-images-history-endurance {
+    width:100%;
+  }
+
+  .block-images-history-sprint {
+    width:100%;
+  }
+
+  .block-images-history-speedway {
+    width:100%;
+  }
+
+  .history-text-endurance p:first-child {
+
+    padding-top:3%;
+  }
+
+  .history-text-endurance p {
+
+  }
+
+  .history-text-sprint p {
+
+  }
+
+  .history-text-speedway p {
+
+  }
+
+  /*RULES 900px*/
+
+  ul li {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  .hidden-rules-endurance {
+    flex-direction:column;
+  }
+  .hidden-rules-sprint {
+    flex-direction:column;
+  }
+
+  .hidden-rules-speedway {
+    flex-direction:column;
+  }
+
+  .rules-text-endurance {
+    width: 100%;
+  }
+
+  .rules-text-sprint {
+    width: 100%;
+  }
+
+  .rules-text-speedway {
+    width: 100%;
+  }
+
+  .block-images-rules-endurance {
+    width:100%;
+  }
+
+  .block-images-rules-sprint {
+    width:100%;
+  }
+
+  .block-images-rules-speedway {
+    width:100%;
+  }
+
+  .rules-text-endurance p:first-child {
+
+    padding-top:3%;
+  }
+
+  .rules-text-sprint p:first-child {
+    text-align: left;
+    padding-top:3%;
+  }
+
+  .rules-text-speedway p:first-child {
+    text-align: left;
+    padding-top:3%;
+  }
+
+  .rules-text-endurance p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+  .rules-text-sprint p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+  .rules-text-speedway p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+    /*KARTS 900px*/
+
+    ul li {
+      text-align: left;
+      font-size: 1.1rem;
+    }
+
+    .hidden-karts-endurance {
+      flex-direction:column;
+    }
+    .hidden-karts-sprint {
+      flex-direction:column;
+    }
+
+    .hidden-karts-speedway {
+      flex-direction:column;
+    }
+
+    .karts-text-endurance {
+      width: 100%;
+    }
+
+    .karts-text-sprint {
+      width: 100%;
+    }
+
+    .karts-text-speedway {
+      width: 100%;
+    }
+
+    .block-images-karts-endurance {
+      width:100%;
+    }
+
+    .block-images-karts-sprint {
+      width:100%;
+    }
+
+    .block-images-karts-speedway {
+      width:100%;
+    }
+
+    .karts-text-endurance p:first-child {
+
+      padding-top:3%;
+    }
+
+    .karts-text-sprint p:first-child {
+      text-align: left;
+      padding-top:3%;
+    }
+
+    .karts-text-speedway p:first-child {
+      text-align: left;
+      padding-top:3%;
+    }
+
+    .karts-text-endurance p {
+      padding-bottom:3%;
+      padding-top:0%;
+    }
+
+    .karts-text-sprint p {
+      padding-bottom:3%;
+      padding-top:0%;
+    }
+
+    .karts-text-speedway p {
+      padding-bottom:3%;
+      padding-top:0%;
+    }
+
+}
+
+/*max600px*/
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 0.9rem;
+    text-indent: 1.5rem;
+  }
+
+  p:first-of-type {
+     text-indent: 0;
+  }
+
+  ul li {
+    text-align: left;
+    font-size: 0.9em;
+  }
+
+  .flex-parent {
+    font-size: 1.5rem;
+  }
+
+  .images-sections {
+    padding-top:0%;
+  }
+
+/*HISTORY 600px*/
+
+  ul li {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+  .hidden-history-endurance {
+    flex-direction:column;
+  }
+  .hidden-history-sprint {
+    flex-direction:column;
+  }
+
+  .hidden-history-speedway {
+    flex-direction:column;
+  }
+
+  .history-text-endurance {
+    width: 100%;
+  }
+
+  .history-text-sprint {
+    width: 100%;
+  }
+
+  .history-text-speedway {
+    width: 100%;
+  }
+
+  .block-images-history-endurance {
+    width:100%;
+  }
+
+  .block-images-history-sprint {
+    width:100%;
+  }
+
+  .block-images-history-speedway {
+    width:100%;
+  }
+
+  .history-text-endurance p:first-child {
+
+    padding-top:3%;
+  }
+
+  .history-text-sprint p:first-child {
+    text-align: left;
+    padding-top:3%;
+  }
+
+  .history-text-speedway p:first-child {
+    text-align: left;
+    padding-top:3%;
+  }
+
+  .history-text-endurance p {
+    padding-bottom:0%;
+    padding-top:0%;
+  }
+
+  .history-text-sprint p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+  .history-text-speedway p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+  /*RULES 600px*/
+
+  ul li {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+  .hidden-rules-endurance {
+    flex-direction:column;
+  }
+  .hidden-rules-sprint {
+    flex-direction:column;
+  }
+
+  .hidden-rules-speedway {
+    flex-direction:column;
+  }
+
+  .rules-text-endurance {
+    width: 100%;
+  }
+
+  .rules-text-sprint {
+    width: 100%;
+  }
+
+  .rules-text-speedway {
+    width: 100%;
+  }
+
+  .block-images-rules-endurance {
+    width:100%;
+  }
+
+  .block-images-rules-sprint {
+    width:100%;
+  }
+
+  .block-images-rules-speedway {
+    width:100%;
+  }
+
+  .rules-text-endurance p:first-child {
+
+    padding-top:3%;
+  }
+
+  .rules-text-sprint p:first-child {
+    text-align: left;
+    padding-top:3%;
+  }
+
+  .rules-text-speedway p:first-child {
+    text-align: left;
+    padding-top:3%;
+  }
+
+  .rules-text-endurance p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+  .rules-text-sprint p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+  .rules-text-speedway p {
+    padding-bottom:3%;
+    padding-top:0%;
+  }
+
+    /*KARTS 600px*/
+
+    ul li {
+      text-align: left;
+      font-size: 0.9em;
+  }
+
+    .hidden-karts-endurance {
+      flex-direction:column;
+    }
+    .hidden-karts-sprint {
+      flex-direction:column;
+    }
+
+    .hidden-karts-speedway {
+      flex-direction:column;
+    }
+
+    .karts-text-endurance {
+      width: 100%;
+    }
+
+    .karts-text-sprint {
+      width: 100%;
+    }
+
+    .karts-text-speedway {
+      width: 100%;
+    }
+
+    .block-images-karts-endurance {
+      width:100%;
+    }
+
+    .block-images-karts-sprint {
+      width:100%;
+    }
+
+    .block-images-karts-speedway {
+      width:100%;
+    }
+
+    .karts-text-endurance p:first-child {
+
+      padding-top:3%;
+    }
+
+    .karts-text-sprint p:first-child {
+      text-align: left;
+      padding-top:3%;
+    }
+
+    .karts-text-speedway p:first-child {
+      text-align: left;
+      padding-top:3%;
+    }
+
+    .karts-text-endurance p {
+      padding-bottom:3%;
+      padding-top:0%;
+    }
+
+    .karts-text-sprint p {
+      padding-bottom:3%;
+      padding-top:0%;
+    }
+
+    .karts-text-speedway p {
+      padding-bottom:3%;
+      padding-top:0%;
+    }
+}

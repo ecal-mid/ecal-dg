@@ -1,0 +1,143 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<!-- TITRE DU SITE -->
+	<title>Aïkido</title>
+
+	<!-- RESET CSS -->
+	<link rel="stylesheet" href="css/reset.css">
+
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- JQUERY -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- MAIN SCRIPT -->
+	<script src="js/script.js"></script>
+</head>
+
+<body class="background-armes">
+
+	<nav class="menu">
+		<div class="menu-item">
+			<a class="link" href="index.html">Accueil</a>
+		</div>
+		<div class="menu-item">
+			<a class="link" href="histoire.html">Histoire</a>
+		</div>
+		<div class="menu-item">
+			<a class="link" href="regles.html">Règles</a>
+		</div>
+		<div class="menu-item">
+			<a class="page">Pratique </a>
+		</div>
+	</nav>
+
+<img class="forme_pratique" src="images/sabre01.png" alt="" width="200%" >
+
+	<div class="title">
+		<h1>Pratique</h1>
+	</div>
+
+<img id="mainsquitape" src="images/mains1.png" alt="" width="100%" >
+
+
+	<div class="soustitre">
+		<h3> La pratique des armes</h3>
+	</div>
+
+	<div class="block-text block-trigger">
+		<p>
+			<em>E</em>n plus des techniques à main nues, l'aïkido comporte l'étude du maniement d'armes en bois : le sabre ou bokken (aikiken), le bâton ou jō (aikijo), le couteau ou tantō, et de façon plus anecdotique, le juken (baïonnette), arme dans laquelle excellait le fondateur et qui lui avait valu d'en être formateur à l'armée avant et pendant la guerre russo-japonaise (1904-1905).
+
+
+</p>
+	</div>
+
+	<div class="space"></div>
+
+	<div class="block-text">
+		<p>
+			<em>L</em>e fondateur a réuni dans le jō des techniques de lance, de sabre de naginata (fauchard) et de Jūkendō (Baïonnette) . La technique de sabre qu'il a développée est singulièrement différente du kenjutsu des koryu (écoles traditionnelles). C'est surtout à l'étude de cette dernière que le fondateur consacra son énergie en ce qui concerne les armes. </p>
+	</div>
+<div class="space"></div>
+
+	<div class="soustitre block-trigger5">
+		<h3> La pratique à mains nues</h3>
+	</div>
+<img id="boum3" src="images/flash-03.svg" alt="" height="200%" >
+
+	<div class="block-text">
+		<p>
+<em>L</em>e fondateur de l'aïkido ne voulait pas entendre parler de compétition. L'accent est mis sur le développement complet de l'individu. Pendant les cours, les élèves observent l'enseignant faire la démonstration d'une technique et travaillent ensuite avec un partenaire pour la répliquer. Ils améliorent ainsi leur technique et leur compréhension de l'art. Le mouvement, le positionnement, la précision et le rythme sont tous des aspects importants dans l'exécution des techniques. Les élèves gagnent également en souplesse et en adaptation en les appliquant.
+	</p>
+	</div>
+
+	<div class="space"></div>
+
+	<div class="block-text">
+		<p>
+		<em>L</em>es aïkidokas s'entraînent par deux, au niveau débutant. L’« attaquant » (uke, littéralement « celui qui accepte, qui chute », également appelé aite18, littéralement « celui qui prête sa main ») déclenche une attaque contre le « défenseur » (tori « celui qui saisit », également appelé shi19 et parfois nage « celui qui projette » ou encore shite « celui qui exécute »), qui la neutralise avec une technique d'aïkido. </p>
+	</div>
+
+	<div class="space"></div>
+
+	<div class="block-text">
+		<p>
+		<em>E</em>n général, la technique est étudiée de la manière suivante : le professeur montre le mouvement, puis le partenaire aite attaque tori quatre fois (deux fois de chaque côté : gauche et droite alternativement), puis les partenaires échangent les rôles pour 4 nouvelles attaques et ainsi de suite. Lorsque plusieurs mouvements ont été vus à partir d'une même attaque, le professeur peut faire travailler en « technique libre » (jiyū waza) : les rôles aite et tori ne changent pas, aite se relève après chaque mouvement et réattaque immédiatement tori qui applique la technique qu'il veut ; le placement et le mouvement du corps ainsi que l'endurance (cardio-vasculaire) sont alors travaillés. Parfois, tori est assailli par plusieurs aite, afin de travailler la réponse à une attaque de groupe (ce travail se nomme randori bien qu'il soit différent du combat libre pratiqué au judo). </p>
+	</div>
+
+
+<img class="boum" src="images/flash-01.svg" alt="" width="100%" >
+<img class="boum2" src="images/flash-02.svg" alt="" width="100%" >
+
+	<img id="mainsquistop" src="images/mains2.png" alt="" width="100%" >
+
+<!-- script qui ajoute une classe si le scroll de la page arrive à un certain niveau, il rajoute la classe scroll-finish -->
+
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			var scroll = $(window).scrollTop();
+			var totalHeight = $('body').height() - window.innerHeight;
+			// regarde la distance depuis le top
+			var limit = $('.block-trigger').offset().top;
+			console.log(limit);
+			if (scroll>= limit) {
+      $('body').addClass('scroll-pendant')
+			}
+				if (scroll<= limit) {
+				$('body').removeClass('scroll-pendant')
+}
+
+			if (scroll >= totalHeight) {
+				$('body').addClass('scroll-finish')
+			} else {
+				$('body').removeClass('scroll-finish')
+			}
+		})
+	</script>
+
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			var scroll = $(window).scrollTop();
+			var totalHeight = $('body').height() - window.innerHeight;
+			// regarde la distance depuis le top
+			var limit = $('.block-trigger5').offset().top;
+			console.log(limit);
+			if (scroll>= limit) {
+      $('body').addClass('scroll-pendant5')
+			}
+				if (scroll<= limit) {
+				$('body').removeClass('scroll-pendant5')
+}
+
+
+})
+</script>
+
+
+
+</body>
+</html>

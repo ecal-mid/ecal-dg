@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GO KART</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="images/kart-icon.png"/>
+
+     <!-- RESET CSS -->
+     <link rel="stylesheet" href="css/reset.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/game-style.css">
+
+     <link rel="stylesheet" href="css/media-queries.css">
+
+
+     <!-- FONTS CSS -->
+     <link rel="stylesheet" href="css/fonts.css">
+
+     <!-- JQUERY -->
+     <script src="js/jquery-3.3.1.min.js"></script>
+
+     <!-- MAIN SCRIPT -->
+     <script src="js/game-script.js"></script>
+
+
+
+  </head>
+
+  <body>
+
+<div class="loose-video" style="display: none;">
+    <video autoplay muted>
+      <source src="video/crash.mp4" type="video/mp4">
+    </video>
+</div>
+
+    <div class="kart-cursor"></div>
+
+      <div class="start">START</div>
+
+      <div class="loose" style="display: none;">YOU LOST!</div>
+
+  <div class="game-block">
+
+
+    <div class="flex-game-top">
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+    </div>
+
+    <div class="obstacles">
+      <div class="obs obs-1"></div>
+      <div class="obs obs-2"></div>
+      <div class="obs obs-3"></div>
+      <div class="obs obs-4"></div>
+      <div class="obs obs-5"></div>
+      <div class="obs obs-6"></div>
+      <div class="obs obs-7"></div>
+      <div class="obs obs-8"></div>
+      <div class="obs obs-9"></div>
+      <div class="obs obs-10"></div>
+      <div class="obs obs-11"></div>
+      <div class="obs obs-12"></div>
+    </div>
+
+    <div class="flex-game-bottom">
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+      <div class="yellow-box"></div>
+      <div class="blue-box"></div>
+    </div>
+
+  </div>
+
+  <div class="finish">
+    <div class="black-box"></div>
+    <div class="white-box"></div>
+    <div class="black-box"></div>
+    <div class="white-box"></div>
+    <div class="black-box"></div>
+    <div class="white-box"></div>
+  </div>
+
+  <div class="won" style="display: none;">YOU WON!</div>
+
+  <div class="win-video" style="display: none;">
+      <video autoplay muted>
+        <source src="video/champagne.mp4" type="video/mp4">
+      </video>
+  </div>
+
+  </body>
+</html>

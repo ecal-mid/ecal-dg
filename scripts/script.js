@@ -22,6 +22,12 @@
           if (!site.attr('src')) {
             var src = site.data('src');
             site.attr('src', src);
+            site.on('load', function () {
+              $(this)
+                .parent()
+                .parent()
+                .addClass('project--loaded');
+            })
           }
         }, 800);
       });

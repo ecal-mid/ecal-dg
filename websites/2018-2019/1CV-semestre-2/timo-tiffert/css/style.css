@@ -1,0 +1,488 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  background-color: white;
+}
+
+
+@font-face {
+font-family:  "Eurostile LT Std Extended 2";
+src: url("../fonts/EurostileLTStd-Ex2.otf");
+}
+@font-face {
+  font-family: "NewParis Ecal Text Bold";
+  src: url("../fonts/NewParisEcalText-Bold.otf");
+}
+.background-armes {
+  background-image: url(../images/TEST-04.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.background-regles {
+  background-image: url(../images/TEST-regles2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+
+.background-histoire {
+  background-image: url(../images/TEST-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.menu {
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  right: 0;
+  width: 40%;
+  padding-left: 12px;
+  padding-top: 10px;
+  font-family: "Eurostile LT Std Extended 2";
+  background-color: black;
+  border-top:5px solid white;
+  font-size: 1.1em;
+  }
+
+.link{
+  text-decoration: none;
+  color: white;
+  }
+
+.page{
+  color: black;
+  -webkit-text-stroke-width:0.5px;
+  -webkit-text-stroke-color: white;
+  }
+.page:hover{
+color: black;
+-webkit-text-stroke-width:0px;
+-webkit-text-stroke-color: black;
+  }
+
+
+.title {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.title h1 {
+  font-family: "Eurostile LT Std Extended 2";
+  color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 18vw;
+  background-color: none;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color: white;
+  z-index: 150;
+}
+.soustitre{
+  font-family: "Eurostile LT Std Extended 2";
+  color: black;
+  font-size: 2.5em;
+  background-color: white;
+position: relative;
+right: 0;
+margin-left: 10%;
+width: 50%;
+z-index: 14;
+}
+
+
+.block-text {
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 12px;
+  padding-right: 17px;
+  background-color: yellow;
+  width: 50%;
+  margin-left: 10%;
+  position: relative;
+  z-index: 40;
+}
+
+
+.boum{
+  width: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+}
+
+.boum2{
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: center;
+  position: fixed;
+  z-index: 40;
+  bottom: 0;
+}
+
+/*rajoute la classe p/r javascript de armes */
+.scroll-finish .boum {
+  transform: scaleY(10);
+  left: 0;
+  transition: all 0.2s ease;
+}
+
+.scroll-finish .boum2 {
+  transform: scaleX(2);
+  transform: rotateZ(30);
+  left: 0;
+  transition: all 0.2s ease;
+}
+.scroll-finish .block-text{
+  z-index: 0;
+}
+
+
+
+
+
+
+.block-text p {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-family: "NewParis Ecal Text Bold";
+  position: relative;
+  z-index: 40;
+}
+/* premieres lettres en grand */
+.block-text em{
+  font-family: "NewParis Ecal Text Bold";
+  font-size:  1.7em;
+}
+
+
+.space2{
+  height: 20vh;
+}
+.space {
+  height: 50vh;
+}
+
+
+.menu-item{
+  display:block;
+  margin-bottom: 5px;
+}
+
+/* changer taille si ecran petit*/
+@media screen and (max-width:1000px){
+.block-text p{
+  font-size: 1.3em;
+}
+
+.block-text em{
+  font-size:  2em;
+}
+  .block-text{
+    width:70%;
+    margin-left: 0%;
+    left:  0;
+  }
+  .menu{
+    width:30%;
+    right: 0;
+    transition: all 2s ease;
+   }
+.soustitre{
+  width: 70%;
+  margin-left: 0%;
+}
+.space {
+  height: 60vh;
+}
+}
+
+/* changer taille si ecran petit*/
+@media screen and (max-width:700px){
+.block-text p{
+  font-size: 1.2em;
+}
+
+.block-text em{
+  font-size:  1.7em;
+}
+  .block-text{
+    width:100%;
+    left:  0;
+
+  }
+  .menu{
+    width:100%;
+    right: 0;
+    transition: all 2s ease;
+   }
+.soustitre{
+  width: 100%;
+  margin-left: 0%;
+}
+.space {
+  height: 40vh;
+}
+
+#dojo_mur{
+  position: fixed;
+  top: 0;
+}
+
+.menu-item{
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 14px;
+  transition: all 1s ease;
+}
+}
+
+/* IDEA: images défilantes sur la page d'accueil */
+@keyframes AutoSlide {
+	0%,100%{
+		left: -22322px; /*1ère image*/
+	}
+100% {
+		left: -4845px; /*1ère image*/
+	}
+
+}
+
+}
+#slideshow {
+	position: fixed;
+  z-index: 10;
+	width: 10vw;
+	height: 100%;
+	margin:  0px;
+	overflow: hidden;
+}
+#sContent li {
+	display: flex;
+}
+#sContent {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	/*CSS3 animation de la page d'accueil*/
+	animation-name: AutoSlide;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+}
+
+
+
+
+
+
+
+
+.sabreaccueil {
+  position: fixed;
+  bottom:  30vh;
+  left: 0.3vw;
+  transition: all 2s ease;
+  z-index: 12;
+
+}
+
+.sabreaccueil:hover{
+  animation-name: sabre;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sabre {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+
+
+/* sabre section Histoire */
+
+  .sabre{
+    position: fixed;
+    top: 40vh;
+    z-index: 36;
+  }
+
+/* images section regles */
+
+#dojo_sol{
+  position: relative;
+  bottom:0;
+  z-index: 8;
+}
+#dojo_mur{
+  position: fixed;
+  bottom: 0;
+  z-index: 38;
+}
+
+.dojo_action{
+  position: fixed;
+  bottom: 0;
+  transform: scaleX(2);
+  z-index: 20;
+}
+
+.scroll-finish2 .dojo_action{
+transform: scaleX(1);
+transition: all 0.1s ease;
+z-index: 400
+}
+
+.scroll-finish2 #dojo_mur{
+  z-index: 200;
+  transition: all 3s ease;
+}
+
+
+
+/* MAIN section pratiquer */
+  #mainsquitape{
+  position:fixed ;
+  bottom:50 ;
+  z-index: 15;
+}
+
+#mainsquistop{
+  position: relative;
+  z-index: 13;
+}
+
+
+.forme_pratique{
+  position: fixed;
+  top: 37vh;
+  left: -300vw;
+
+  z-index: 35;
+}
+
+.scroll-pendant .forme_pratique{
+  position: fixed;
+  top: 37vh;
+  left: 2000px;
+  transition: all 10s ease;
+  animation-timing-function:ease-in;
+  z-index: 12;
+
+}
+#dojo_trigger2{
+position: fixed;
+top: 0vh;
+left: -10vw;
+transform: scaleY(0.2);
+transition: all 10s ease;
+z-index: 120;
+}
+.scroll-pendant2 #dojo_trigger2{
+position: fixed;
+left: 400vh;
+transform: scaleY(3);
+left: -10vw;
+z-index: 150;
+}
+
+#dojo_trigger3a{
+  position: fixed;
+  left:0;
+  top: 0;
+  z-index: 120;
+  transition: all 2s ease;
+  transition-delay: 0.5s;
+}
+.scroll-pendant3 #dojo_trigger3a{
+left:-200vh;
+}
+#dojo_trigger3b{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 120;
+  transition: all 1.8s ease;
+  transition-delay: 0.3s;
+}
+
+.scroll-pendant3 #dojo_trigger3b{
+right:-200vh;
+}
+
+.trigger3c{
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+#dojo_trigger3c{
+  position: fixed;
+  justify-content: center;
+top: 0;
+  z-index: 122;
+  transition: all 3s ease;
+  transform: scaleY(1);
+
+}
+
+.scroll-pendant3 #dojo_trigger3c{
+  transform: scaleY(10);
+  top: 2000vh;
+
+  z-index:200;
+}
+
+
+#dojo_trigger4{
+  position: fixed;
+  bottom: -500vh;
+  right: -100;
+  transition: all 6s ease;
+  z-index: 140;
+
+}
+.scroll-pendant4 #dojo_trigger4{
+position: fixed;
+bottom: 100vh;
+z-index: 140;
+}
+
+#boum3{
+  position: fixed;
+  top:-50vh;
+right:500vh;
+z-index: 11;
+  transition: all 4s ease;
+}
+
+.scroll-pendant5 #boum3{
+  position: fixed;
+  top:-20vh;
+  right:-400vh;
+
+}

@@ -1,0 +1,351 @@
+@charset "UTF-8"
+@@font-face {
+  font-family: "rounded line 7";
+  src: url("fonts/rounded_line_7.otf");
+}
+html {
+  width: 100%;
+  height: auto;
+}
+body {
+  width: 100%;
+  height: auto;
+  background: url("img/def/2.svg"),url("img/nb/bt/1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.moire {
+  object-fit: ;
+  position: absolute;
+  z-index: 15;
+  width: 100vw;
+}
+
+h1 {
+  font-family: 'rounded line 7';
+  color: black;
+  font-size: 4vmax;
+  margin-right: 100vmax;
+}
+
+a {
+  position: relative;
+  font-family: 'rounded line 7';
+  color: black;
+  font-size: 3vmin;
+  margin-right: 80vmax;
+  text-decoration: none;
+}
+
+.posit {
+top: 40vw;
+width: 40vw;
+height: auto;
+margin-left: 0vmax;
+opacity:1;
+position: absolute;
+top: 20vw;
+}
+
+h2 {
+  color: black;
+  background-image:radial-gradient(rgba(255,255,255,1),rgba(255,255,255,1));
+  font-family: 'rounded line 7';
+  font-size: 4vw;
+  margin-left:25vmax;
+  top: 0vmax;
+  margin-right: 25vmax;
+  display: scroll;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0vw;
+  z-index: 20;
+  position: relative;
+}
+
+
+
+p {
+  color: black;
+  background-image: radial-gradient(rgba(255,255,255,1),20%,rgba(255,255,255,1));
+  font-family: 'Helvetica-Bold';
+  font-size: 2vw;
+  margin-left:25vw;
+  top: 0vmax;
+  margin-right: 10vw;
+  margin-bottom: 5vmax;
+  display: scroll;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  position: relative;
+  z-index: 20;
+
+}
+
+
+img {
+  position: absolute;
+  z-index: 5;
+}
+
+#top {
+  margin-top: 2vmax;
+}
+
+a:hover{
+  color: white;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 1vmin;
+  left: 2vmin;
+  z-index: 3000;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 40%;
+  margin-left: 0vmax;
+  margin-right: 15vw;
+  position: relative;
+  grid-gap:40vmax;
+  top: 50vmax;
+  position:absolute;
+  bottom: 0vmax;
+}
+
+.item{
+position: relative;
+  overflow: visible;
+  bottom: 600px;
+}
+
+
+.moire_x{
+  position: fixed;
+  z-index: 15;
+  width: 100vmax;
+}
+
+.vignett_1{
+  position: absolute;
+  margin-top: 0vw;
+  left: 22vw;
+  width: 78vw;
+  height: auto;
+  opacity:1;
+  z-index: 5;
+}
+.vignett_2{
+    position: absolute;
+    margin-top: 10vw;
+    left: 65vw;
+    width: 30vw;
+    height: auto;
+    margin-left: 0vmax;
+    opacity:1;
+    z-index: 5;
+    }
+
+.vignett_3{
+  position: absolute;
+  top: 270vw;
+  width: 30vw;
+  height: auto;
+  margin-left: 20vw;
+  opacity:1;
+  z-index: 5;
+}
+.vignett_4{
+  position: absolute;
+  margin-top: -30vw;
+  left: 0vw;
+  width: 70vw;
+  height: auto;
+  z-index: 5;
+}
+
+.vignett_5{
+  position: absolute;
+  margin-top: -8vw;
+  left: 0vw;
+  width: 40vw;
+  height: auto;
+  margin-left: 0vmax;
+  z-index: 5;
+}
+
+.vignett_6{
+  position: absolute;
+
+  left: 50vw;
+  right: 10vw;
+  width: 40vw;
+  height: auto;
+  margin-top: -10vw;
+  z-index: 5;
+}
+
+.vignett_7{
+  position: absolute;
+  left: 10vw;
+  margin-bottom: -20vw;
+  width: 30vw;
+  height: auto;
+  margin-left: 0vmax;
+  z-index: 5;
+}
+
+.vignett_8{
+  position: absolute;
+
+  left: 50vw;
+  right: 10vw;
+  bottom: vw;
+  width: 70vw;
+  height: auto;
+  margin-top: -10vw;
+  z-index: 5;
+}
+
+.vignett_9{
+  position: absolute;
+  left: 0vw;
+  right: 0vw;
+  width: 99vw;
+  height: auto;
+  margin-top: -10vw;
+  z-index: 5;
+}
+
+.vignett_10{
+  position: absolute;
+  left: 0vw;
+  right: 0vw;
+  width: 60vw;
+  height: auto;
+  margin-top: -10vw;
+  z-index: 5;
+}
+
+.vignett_11{
+  position: absolute;
+  left: 50vw;
+  right: 0vw;
+  width: 50vw;
+  height: auto;
+  margin-top: -10vw;
+  z-index: 5;
+}
+
+
+
+.vignett_12{
+  position: absolute;
+  margin-top: -7vw;
+  left: 0vw;
+  bottom: vw;
+  width: 50vw;
+  height: auto;
+  background-color:;
+  transition: transform 1s;
+  margin-left: 0vmax;
+  opacity:1;
+  top:vw;
+  z-index: 5;
+}
+
+.vignett_13{
+  position: absolute;
+  margin-top: -20vw;
+  left: 50vw;
+  width: 50vw;
+  height: auto;
+  opacity:1;
+  z-index: 5;
+
+}
+
+.vignett_14{
+  position: absolute;
+  left: 50vw;
+  right: 10vw;
+  width: 40vw;
+  height: auto;
+  margin-top: -30vw;
+  z-index: 5;
+}
+.moire_3 {
+  object-fit: contain;
+  position: absolute;
+  width: 10vw;
+  height: auto;
+  margin-right: 80vmax;
+  top:14vmax;
+  transition: width 1s;
+  z-index: 25;
+}
+
+
+
+.moire_3:hover {
+  width: 100vw;
+}
+
+  .sticky2 {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    top: 0;
+    height: auto;
+    z-index: -1;
+    border: 0.4vw solid red;
+
+  }
+
+  .sticky3 {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    top: 10vw;
+    height: auto;
+    z-index: -1;
+    border: 0.4vw solid red;
+
+  }
+
+
+    .sticky4 {
+      position: -webkit-sticky;
+      position: sticky;
+      display: flex;
+      top: 18vw;
+      height: auto;
+      z-index: -1;
+      border: 0.4vw solid red;
+
+    }
+
+  .separate {
+    margin-top: -8vw;
+  }
+  .separate2 {
+    margin-top: -12vw;
+  }
+  .separate3 {
+    margin-top: -30vw;
+  }
+
+.vide {
+  height: 60vw;
+}
+.vide2 {
+  height: 10vw;
+}

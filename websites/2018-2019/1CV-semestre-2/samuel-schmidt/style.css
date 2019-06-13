@@ -1,0 +1,99 @@
+@charset "UTF-8"
+
+@@font-face {
+  font-family: "rounded line 7";
+  src: url("fonts/rounded_line_7.otf");
+}
+
+
+html {
+  width: 100%;
+  height: auto;
+}
+body {
+  width: 100%;
+  height: auto;
+  background: url("img/big/1.svg"), url("img/nb/bt/1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.moire {
+  object-fit: contain;
+  position: scroll;
+  width: 100vw;
+  z-index: 20;
+}
+
+
+h2 {
+  font-family: 'Helvetica-Bold';
+  color: black;
+  background-color:;
+  font-size: 2vmax;
+  margin-right: 90vmax;
+}
+
+h1 {
+  font-family: 'rounded line 7';
+  color: black;
+  font-size: 4vmax;
+  margin-right: 100vmax;
+}
+
+a {
+  position: relative;
+  font-family: 'rounded line 7';
+  color: black;
+  font-size: 3vmin;
+  margin-right: 80vmax;
+  text-decoration: none;
+
+
+}
+
+a:hover{
+  color: white;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 1vmin;
+  left: 2vmin;
+  z-index: 3000;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  position: absolute;
+  grid-gap:15vw;
+  top: 15vw;
+
+}
+
+.item{
+  position: relative;
+  overflow: visible;
+  bottom: 600px;
+}
+
+.sticky2 {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  top: 0;
+  height: auto;
+ z-index: 5;
+}
+
+.space {
+  height: 20vw;
+
+}

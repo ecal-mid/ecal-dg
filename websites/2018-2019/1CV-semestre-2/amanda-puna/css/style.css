@@ -1,0 +1,1361 @@
+/*Style de la page en entier */
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: blue;
+}
+
+@font-face {
+    font-family: 'Pano';
+    src: url('../fonts/Pano-Regular.woff2'),
+        url('../fonts/Pano-Regular.woff2'),
+        url('../fonts/Pano Regular.otf');
+}
+
+@font-face {
+  font-family: 'LED DOT-Matrix';
+  src: url('../fonts/LED Dot-Matrix.woff');
+}
+
+.landingpage {
+  height: calc(100vh - 108px);
+  display: flex;
+  flex-direction: column;
+}
+.flex-parent-lp {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid transparent 1px;
+  width: 100%;
+  flex: 1;
+
+  overflow: hidden;
+  align-content: center;
+  text
+}
+
+.flex-lp-black {
+  width: auto;
+  height: auto;
+  flex: 1 1 auto;
+  background-color: black;
+}
+.flex-lp-grey {
+  width: auto;
+  height: auto;
+  flex: 1 1 auto;
+}
+
+.flex-lp-blue {
+
+  height: auto;
+  width: auto;
+  flex: 1 1 auto;
+  background-color: red;
+}
+
+.example3 {
+  height: 25vw;
+}
+
+
+
+/*Animation du "Basketball" dans le landing page */
+
+.marquee-basket-numbers {
+  height: 25vw;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-basket-numbers span {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 25vw;
+  text-align: left;
+  color: white;
+  align-content: center;
+}
+
+
+.marquee-basket-numbers div {
+  display: block;
+  width: 300%;
+  height: 23vw;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee-basket-numbers 30s linear infinite;
+}
+
+.marquee-basket-numbers span {
+  float: left;
+  width: 50%;
+
+  position: absolute;
+  overflow: hidden;
+}
+
+
+
+
+/*Animation du "By" dans le landing page */
+
+.marquee-by {
+  height: 25vw;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-by span {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 21vw;
+  color: white;
+}
+
+.marquee-by span {
+  float: left;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+.marquee-by div {
+  display: block;
+  width: 300%;
+  height: 23vw;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee-by 30s linear infinite;
+}
+
+
+
+@keyframes marquee-by {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+
+/*Fin Animation du "By" dans le landing page */
+
+
+
+
+
+/*Style du premier flex (w/ fonds noir et le titre du site) */
+
+.flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: solid transparent 1px;
+  width: 100%;
+}
+
+.flexblackheader{
+  width: auto;
+  height: 30px;
+  flex: 1 1 auto;
+}
+
+/*animation "Basketball" pour la landing page */
+.example3 {
+ height: 40%;
+ overflow: hidden;
+ position: relative;
+}
+
+div .example3 {
+  height: 30vw;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+
+
+}
+
+.example3 h7 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 4vw;
+ /* Starting position */
+ -moz-transform:translateY(-100%);
+ -webkit-transform:translateY(-100%);
+ transform:translateY(-100%);
+ /* Apply animation to this element */
+ -moz-animation: example3 15s linear infinite;
+ -webkit-animation: example3 15s linear infinite;
+ animation: example3 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example3 {
+ 0%   { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(100%); }
+}
+@-webkit-keyframes example3 {
+ 0%   { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+@keyframes example3 {
+ 0%   {
+ -moz-transform: translateY(-100%); /* Firefox bug fix */
+ -webkit-transform: translateY(-100%); /* Firefox bug fix */
+ transform: translateY(-100%);
+ }
+ 100% {
+ -moz-transform: translateY(100%); /* Firefox bug fix */
+ -webkit-transform: translateY(100%); /* Firefox bug fix */
+ transform: translateY(100%);
+ }
+}
+
+.example3 h8 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 2vw;
+ /* Starting position */
+ -moz-transform:translateY(-100%);
+ -webkit-transform:translateY(-100%);
+ transform:translateY(-100%);
+ /* Apply animation to this element */
+ -moz-animation: example3 15s linear infinite;
+ -webkit-animation: example3 15s linear infinite;
+ animation: example3 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example3 {
+ 0%   { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(100%); }
+}
+@-webkit-keyframes example3 {
+ 0%   { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+@keyframes example3 {
+ 0%   {
+ -moz-transform: translateY(-100%); /* Firefox bug fix */
+ -webkit-transform: translateY(-100%); /* Firefox bug fix */
+ transform: translateY(-100%);
+ }
+ 100% {
+ -moz-transform: translateY(100%); /* Firefox bug fix */
+ -webkit-transform: translateY(100%); /* Firefox bug fix */
+ transform: translateY(100%);
+ }
+}
+
+
+
+
+/*Code pout l'effet sticky sur le header et le footer */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+  .position-header {
+    top: 0;
+    z-index: 1;
+  }
+
+  .position-footer {
+    bottom: 0;
+    z-index: 1;
+
+
+  }
+
+  /*Animation de rotation des ballons de basketball */
+
+
+  .ballon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 120px;
+      height: 120px;
+      margin:-60px 0 0 -60px;
+      -webkit-animation:spin 4s linear infinite;
+      -moz-animation:spin 4s linear infinite;
+      animation:spin 4s linear infinite;
+  }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+/*Bouton Top Player + RECORDS*/
+
+/* Dropdown Button
+.dropbtn {
+  background-color: blue;
+  color: white;
+  padding: 16px;
+  font-size: 2vw;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+/*Style du flex Top Player et Records */
+
+
+.flex_topplayers{
+  background-color: blue;
+  width: 300px;
+  height: 60px;
+  flex: 1 1 auto;
+  border: solid black 0px;
+  padding-bottom: 20px;
+}
+
+.flex_topplayers :hover {
+  background-color: white;
+  color: blue;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 50%;
+
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: black;
+  font-style: Pano;
+  font-size: 1.8 vw;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.flex_topplayers:hover .dropdown-content1 {display: block;}
+
+
+/* Show the dropdown menu on hover */
+.flex_records:hover .dropdown-content1 {display: block;}
+
+
+
+
+
+
+.flex_records{
+  background-color: blue;
+  width: 300px;
+  height: 60px;
+  flex: 1 1 auto;
+  border: solid black 0px;
+  padding-bottom: 20px;
+}
+
+.flex_records :hover {
+  background-color: white;
+  color: blue;
+}
+
+/*Style du flex du terrain de basket */
+.flex_leftcontent{
+  width: 300px;
+  height: calc(100vh - 229px);
+  flex: 1 1 auto;
+  border: solid white 0.4vw;
+  background-color: blue;
+  overflow: hidden;
+  position: relative;
+  margin-right: -0.25vw;
+  margin-left: -0.25vw;
+
+}
+
+
+.flex_leftcontent img {
+
+align-items: center;
+object-fit: contain;
+
+}
+
+.flex_rightcontent img {
+
+align-items: center;
+object-fit: contain;
+}
+
+.left-pannel {
+
+  color: white;
+  font-family: Pano;
+  font-size: 1em;
+
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  background-blend-mode: overlay;
+
+  transform: translate(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.left-pannel--show {
+  transform: translateX(0);
+}
+
+.left-pannel-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  transform: translate(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.left-pannel-image--show {
+  transform: translateX(0);
+}
+
+.left-pannel-image--show  img {
+  height: 100%;
+  width: auto;
+
+  align-items: center;
+
+}
+
+.right-pannel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  transform: translate(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.right-pannel--show {
+  transform: translateX(0);
+}
+
+.right-pannel-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  transform: translate(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.right-pannel-image--show {
+  transform: translateX(0);
+}
+
+.flex_rightcontent{
+  width: 300px;
+  height: calc(100vh - 229px);
+  flex: 1 1 auto;
+  border: solid white 5px;
+  background-color: blue;
+  overflow: hidden;
+  position: relative;
+}
+
+/*Cercle au centre du terrain de basket */
+.circle {
+  background-color:none;
+  border:4px solid white;
+  height:200px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:200px;
+  position: absolute;
+  margin-left: center;
+  transform:
+  top: 50%;
+  left:50%;
+  margin-top: -450px;
+  margin-left: -100px;
+}
+
+
+/*Lignes des 3 points à gauche */
+.troispoint-gauche {
+  background-color:none;
+  height:550px;
+  width:550px;
+  position: absolute;
+  margin-left: center;
+  transform:
+  top: 50%;
+  left:50%;
+  margin-top: -625px;
+  margin-left: -56vw;
+
+}
+
+.troispoint-droite {
+  background-color:none;
+  height:550px;
+  width:550px;
+  position: absolute;
+  margin-left: center;
+  transform:
+  top: 50%;
+  left:50%;
+  margin-top: -625px;
+  margin-left: 8vw;
+
+  transform: rotate(180deg);
+}
+
+.st0 {
+  fill: yellow;
+
+}
+
+.st0 :hover {
+  fill: white;
+
+}
+
+
+#troispoint-left {
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 0px;
+  padding: 5px;
+  text-transform: uppercase;
+
+  position: absolute;
+  margin-left: center;
+  transform:
+  top: 50%;
+  left:50%;
+  margin-top: -550px;
+  margin-left: -540px;
+
+}
+
+#left-div:hover #troispoint-left {
+  display: block;
+}
+
+
+.topplayer-menu {
+  color: black;
+  font-family: Pano;
+  font-size: 1vw;
+  text-align: left;
+
+
+}
+
+
+ /*Style du flex Footer (w/ global ranking + heure et date) */
+.flex-parent-footer {
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: transparent;
+
+}
+ .flex_footer{
+   width: 50vw;
+   height: 25px;
+   flex: 1 1 auto;
+   border: solid white 2px;
+   background-color: red;
+   color: white;
+
+ }
+ .flex_dateheurefooter{
+   width: 300px;
+   height: 80px;
+   flex: 0 0 auto;
+   border: solid black 2px;
+   color: white;
+   background-color: black;
+ }
+
+
+ /*Style du flex avec le rnaking des pays */
+
+ .flex_imagerankingfooter{
+   width: 100%;
+   height: 70px;
+   flex: 1 1 auto;
+
+   border: solid transparent 2px;
+   background-color: white;
+   margin-top: -2px;
+
+   position: relative;
+
+ }
+
+ .flex_imagerankingfooter div {
+
+   justify-content: space-around;
+   justify-content: center;
+   padding: 0.5vw;
+
+ }
+
+ .flex_imagerankingfooter img {
+
+   justify-content: space-around;
+
+   width: 40px;
+   height: auto;
+
+
+   border-color: black;
+   border-width: 0.2vw;
+   border-radius: 6vw;
+   border-style: solid;
+
+ }
+
+ .flex_imagerankingfooter span {
+
+   height: 100%;
+   width: 100%;
+
+   height: 50px;
+   width: 50px;
+   position: absolute;
+   bottom: 50%;
+   margin-bottom: -2vw;
+   top: 50%;
+   margin-top: -2vw;
+ }
+
+
+
+
+
+
+ /*Style de marges de la definition) */
+
+.definition {
+  margin-top: 3vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 3vw;
+  columns: 2;
+  display: none;
+}
+
+
+.definition-positiontitle {
+  margin-top: 0.5vw;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-top: 1vw;
+  margin-left: 5vw;
+  margin-right: 50px;
+  columns: 2;
+}
+
+
+
+.definition-position {
+
+
+  margin-top: 0vw;
+  margin-left: 5vw;
+  margin-right: -4vw;
+  margin-bottom: 1vw;
+
+  columns: 2;
+}
+
+
+.row-definition-position {
+  display: flex;
+}
+
+.definition-position .definition {
+
+  flex: 50%;
+  padding: 10px;
+
+
+}
+
+
+/*Style de paragraphe h#) */
+
+h1 {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 3.5vw;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.4vw;
+  margin-bottom: -0.5vw;
+
+  margin-left: -0.25vw;
+
+
+  position: relative;
+}
+
+
+h1:hover {
+  background-color: white;
+  color: blue;
+}
+
+
+h2 {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1em;
+  color: white;
+  columns: 2;
+}
+
+
+h3 {
+  font-family: LED Dot-Matrix;
+  font-weight: normal;
+  font-size: 3.8em;
+  color: white;
+  text-align: center;
+  margin: 0.3vw ;
+}
+
+h4 {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 9vw;
+  line-height: 10vw;
+  color: white;
+  text-align: center;
+  margin: 0.3vw ;
+}
+
+/*titre top players*/
+
+h5{
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 3.5vw;
+  line-height: 7vh;
+  color: white;
+  text-align: center;
+  margin: 0.3vw ;
+}
+
+
+h6 {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  color: white;
+
+  margin-top: 1.75vw;
+  margin-bottom: -1vw;
+
+  border-radius: 0vw;
+  border-color: white;
+  padding: 0.5vw;
+  border-style: solid;
+
+}
+
+/*basket +numbers animation*/
+
+h7 {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 9.5vw;
+  color: white;
+  text-align: left;
+  margin: 0.3vw ;
+}
+
+
+h8 {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 4.15vw;
+  color: white;
+  text-align: left;
+  margin: 0.3vw ;
+}
+
+h9 {
+
+}
+
+/* FIN basket +numbers animation*/
+
+
+p {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1.2vw;
+  text-align: left;
+  color: white;
+  margin-top: 0.15em;
+  line-height: 1.3;
+}
+
+
+.playerinfos {
+
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1em;
+  color: white;
+
+
+  margin-top: 4vh;
+
+}
+
+.chapitre {
+  position: relative;
+}
+
+/*  h1 img {
+
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -1.8vw;
+  top: 50%;
+  margin-top: -1.8vw;
+  margin-left: -5vw;
+  padding-right: 5vw;
+} */
+
+
+
+
+img {
+  background-blend-mode: luminosity;
+}
+
+.image-chapter {
+  align-content: right;
+}
+
+
+.marquee span {
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1em;
+  text-align: justify;
+  color: white;
+  margin-top: 0.15em;
+  line-height: 1.3;
+
+
+}
+
+
+/*Animation marquee du titre */
+
+.marquee {
+  height: 30px;
+  width: 420px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 300%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 20s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+
+
+
+/*Animation marquee ranking horizontal*/
+
+.marquee_ranking {
+  height: 70px;
+  width: 300px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee_ranking div {
+  display: block;
+  width: 200%;
+  height: 70px;
+
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1.2vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 20s linear infinite;
+}
+
+.marquee_ranking span {
+  float: left;
+  width: 100%;
+
+
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1.2vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 50px;
+
+  padding-bottom:5vw;
+}
+
+
+.marquee_ranking div img {
+  margin-left: 3vw;
+  height: 40px;
+  width: auto;
+}
+
+
+@keyframes marquee_ranking {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+
+
+
+
+
+
+/*Séparation des sections pour les règles les chiffres */
+
+
+#section-1 {
+   float: left;
+}
+
+#section-2 {
+   float: left;
+   margin-left: 45px;
+}
+
+#section-3 {
+   float: left;
+   margin-left: 50px;
+}
+
+#section-4 {
+   float: right;
+}
+
+
+/*Animation pour le hover sur les chiffres */
+
+.hover_rules{
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background-color: #BEBEBE;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  color: #95a5a6;
+  border-radius: 10px;
+
+}
+
+.hover_rules span{
+  font-family: sans-serif;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+
+  float: left;
+  top: 125px;
+  left: 50px;
+  font-size: 40px;
+}
+
+.hover_rules:hover{
+  transform: rotate(360deg);
+  transition: all 1s ease-in-out;
+  border-radius: 50%;
+  background-color: black;
+
+}
+
+.hover_rules :hover span{
+  transform: rotate(-360deg);
+  transition: all 1s ease-in-out;
+
+}
+
+/*Apparition des textes après le hover sur les chiffres */
+#some-element {
+  display: none;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div:hover #some-element {
+  display: block;
+}
+
+
+/*Apparition des textes après le hover sur les chiffres – code by Pietro */
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5vw;
+}
+
+.column {
+  border: solid;
+  border-color: white;
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-radius 1s ease-in-out, transform 1s ease-in-out;
+  background: red;
+}
+
+.column-number {
+  font-family: Pano;
+  font-size: 12vw;
+  color: white;
+}
+
+.column-content {
+  font-size: 0.85vw;
+  color: white;
+  font-family: Pano;
+  text-align: center;
+
+}
+
+.column .column-content {
+  display: none;
+}
+
+.column:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+.column:hover .column-number {
+  display: none;
+}
+
+.column:hover .column-content {
+  display: block;
+}
+
+
+/*content top player */
+
+
+.topplayer-category {
+  font-family: Pano;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: lightgrey;
+
+}
+
+.topplayer-ranking {
+  font-family: Pano;
+  color: blue;
+  font-size: 2.75vw;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+
+}
+
+
+.row-ranking {
+  display: flex;
+  justify-content: space-around;
+  padding: 1vw;
+}
+
+.column-ranking {
+  border: solid;
+  border-color: white;
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-radius 1s ease-in-out, transform 1s ease-in-out;
+  background: red;
+}
+
+
+.top2018info {
+  background-color: blue;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 3vw;
+  columns: 2;
+  z-index: 1;
+
+}
+
+
+
+
+
+
+
+.row-player-infos{
+  display: flex;
+}
+
+
+.player-infos {
+  flex: 50%;
+  padding: 10px;
+
+  color: white;
+  font-family: Pano;
+  font-weight: normal;
+  font-size: 1em;
+  color: white;
+
+
+  margin-top: 4vh;
+
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vh;
+  padding-right: 2vw;
+}
+
+
+
+.row-player-infos-stats{
+  display: flex;
+}
+
+
+.player-infos-stats {
+  flex: 50%;
+  padding: 10px;
+
+  align-items: center;
+
+  margin-top: 1vw;
+  margin-left: 0.6vw;
+  margin-bottom: 2vh;
+  padding-left: 0vw;
+}
+
+.statistics-title h6{
+
+  color: red;
+  text-align: center;
+  background-color: white;
+}
+
+
+
+.player-infos-stats p {
+
+  width: 10vw;
+  font-size: 2.25em;
+  color: white;
+  text-align: center;
+
+  margin-top: 0.25vh;
+  margin-bottom: 1vh;
+  padding: 3vw 0vw 3vw 0vw;
+
+
+  border-radius: 50%;
+  border-spacing: 10vw;
+  border-color: white;
+  border-style: solid;
+
+
+}
+
+.player-infos-stats a {
+
+  font-family: Pano;
+  font-style: normal;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  text-align: center;
+
+}
+
+.row-player-stats{
+  display: flex;
+}
+
+
+.player-stats {
+  flex: 20%;
+  padding: 10px;
+
+  margin-left: 2vw;
+  margin-bottom: 2vh;
+  padding-right: 3vw;
+/*image des position*/
+}
+
+.player-stats p {
+
+  width: 10vw;
+  font-size: 2em;
+  color: blue;
+
+  border-radius: 100%;
+  border-color: white;
+  border-style: solid;
+}
+
+
+
+
+
+.position1 {
+  fill: white;
+}
+
+
+.miniterrain-position {
+  margin-top: -2vw;
+  height: 85%;
+  width: 85%;
+  align-items: center;
+}
+
+.terrain {
+  bottom: calc(100vh - 108px);;
+}
+
+
+
+/*responsive!! */
+
+@media only screen and (max-width: 600px) {
+
+
+  h5{
+    font-family: Pano;
+    font-weight: normal;
+    font-size: 9vw;
+    line-height: 7vh;
+    color: white;
+    text-align: center;
+    margin: 0.3vw ;
+  }
+
+p .definition {
+  height: auto;
+  width: 100%;
+}
+
+
+}
